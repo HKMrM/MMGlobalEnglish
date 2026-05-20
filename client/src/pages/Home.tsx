@@ -239,7 +239,7 @@ export default function Home() {
                 In today's world, students are bombarded with information, opinions, and competing narratives on every critical issue — from climate change to social justice, from technology to global politics. The challenge is no longer accessing information; it is knowing what to do with it.
               </p>
               <p className="font-body text-base leading-relaxed mb-5" style={{ color: "#1A2332" }}>
-                At The Voice Academy HK, we guide students to sort through sources, develop genuine empathy in listening, understand multiple perspectives, and ultimately express their own well-reasoned views — with clarity, confidence, and conviction.
+                At Us English, we guide students to sort through sources, develop genuine empathy in listening, understand multiple perspectives, and ultimately express their own well-reasoned views — with clarity, confidence, and conviction.
               </p>
               <p className="font-body text-base leading-relaxed mb-8" style={{ color: "#1A2332" }}>
                 These are not just academic skills. They are the foundations of thoughtful citizenship and a meaningful life.

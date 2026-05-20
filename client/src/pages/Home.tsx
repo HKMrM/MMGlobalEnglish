@@ -32,7 +32,7 @@ const HERO_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJR
 const DEBATE_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/debate-team-WbzVv6KPDCmF6z8mH5449e.webp";
 const WRITING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/creative-writing-aPazyb2JYqC4ZgpkuLepSQ.webp";
 const MUN_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mun-conference-a6iY6BfzySMDsKzWLYjxUd.webp";
-const COACHING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/coaching-session-ScwJhFg4LBYXYba4Jc4S3x.webp";
+const COACHING_IMG = "/manus-storage/tutor-michael_b43123e0.webp";
 
 const programHighlights = [
   {

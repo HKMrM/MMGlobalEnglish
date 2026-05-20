@@ -25,7 +25,7 @@ function useInView(threshold = 0.12) {
   return { ref, inView };
 }
 
-const COACHING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/coaching-session-ScwJhFg4LBYXYba4Jc4S3x.webp";
+const COACHING_IMG = "/manus-storage/tutor-michael_b43123e0.webp";
 const WRITING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/creative-writing-aPazyb2JYqC4ZgpkuLepSQ.webp";
 
 const values = [

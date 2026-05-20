@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663678391153/meqJRzWDVfsRVyBGvtAawS",
+    "access_key_id": "ASIAZV3A2ECZESZFJASZ",
+    "secret_access_key": "GtS36z8wyTqrBYcVHYLTdgjR0yriU0skfEya45sZ",
+    "session_token": "IQoJb3JpZ2luX2VjEB8aCXVzLWVhc3QtMSJGMEQCIFrHeyVejZC0tRPVlwm+TLkiP5eQUNTpLn3zi1OeZZHOAiAyLP5ItFN5MAiizHKWf6aZD3qMLyRrJg3uvAjiCDMCzyr/Awjo//////////8BEAQaDDY2NTM4NjA5ODg2NiIM1RHEn486TPc8SgroKtMDvNDPnnH8ZIv9853u/+cT3KbKR4NYzrtRKDQ8PH5K98V4CfpdAcmrpoHEpLvwSgjAjBCiaOQw5ejVL7dLpxwy4K60zQtfjYqqV9fRkrC1DX6qNQTcP9M8s1+nY8Kmo0Yd+CFy6AN/Dp+iqHluUu2AgrNcLv4x0G4neqUkv17E5sSxGztMRPMAxIpYRstJD1mwwA0+bQrI38C+/6F8SkNndmo6FK44awCPFeLNctjkoJttcI6HuKvymc5FKF6QUxEd0TabXtpJVd+Da8vdR5gtu8BOVVK6Ay25FTPycN6YeUX8K2oVQHBJjo2YH5ZuPzlbbeOzaaK0bsbIpqIwEtW86R4xdNvi1ylFQ2MaN5wAvSbOfHoKCmVUtzq0o+w2xtK2dtXxiQNG8pI2C5drgM1mYVd4JQf7oIl+5/RrN/WVdE48KxNT8EwGuiLhTy98/8RP5G94mQgInn8W1rG2nCAjRIwS3mx7Eytp6llouuLS36B83fae1+s+NhxgFLdNkDYJ8YVMPtAaw8zk2GldvdQWUNMWZxU7ePLQ6ld4VtxH7RFE5LQqhEgg7F6FVES7rQZkqEkc1LXyajE6qzWJv1Ae7B6iNQxojCkZPIxQIZpcYKx/B0Awy6210AY6ngGhzmI/C0LEptip22+Li7MnJhUZDyVccwKyVOjFitJ/u76/ZuLSeWigiFxUnlOQAr0wC13rToLinU5EZVo4S3ifgRJ3VA2uZBk/4fhbHejRrULqF6Jc4D9qZhJ2YjGFkPQ+YxsyE8inKAQ8GKyQyAbXTo4ToxxYv+e306W7CuW3aLoJcsdCb80d2Ynky2C7q2Hbq8KZIuxPcwjdVhC35A==",
+    "expiration": "2026-05-20T18:38:03.000Z"
+  },
+  "name": "hk-coaching",
+  "path": "/home/ubuntu/hk-coaching",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "QcePPQhNLhT2vhC2Pp7icS",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "95maKBQdEpgyTnTZ8aUMGz",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Michael Farbman",
+    "OWNER_OPEN_ID": "ZmAXxApYjyupPjWuraiL56",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "1a118e5e-c4a2-4390-b378-f2b43494ebe7",
+    "VITE_APP_ID": "meqJRzWDVfsRVyBGvtAawS",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "The Voice Academy HK",
+    "VITE_FRONTEND_FORGE_API_KEY": "2yaNzJouKLThN6W6QEaV6Y",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}

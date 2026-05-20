@@ -29,13 +29,14 @@ export default function Pricing() {
       title: "Group Sessions",
       rate: "HKD 750",
       period: "per hour per student",
-      description: "Small group coaching (3-5 students) with interactive learning and peer support.",
+      description: "Small group coaching (3-5 students) with interactive learning and peer support. Generally held online, with on-site options available for pre-prepared groupings.",
       features: [
         "Collaborative learning environment",
         "Debate and discussion practice",
         "Peer feedback and support",
         "Cost-effective option",
         "Dynamic group interactions",
+        "Primarily online delivery",
       ],
       color: "#1B7AB8",
       highlight: false,
@@ -127,6 +128,42 @@ export default function Pricing() {
         </div>
       </section>
 
+      {/* Special Services Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-display text-3xl font-bold mb-8 text-center" style={{ color: "#0F5A8F" }}>
+            Special Services
+          </h2>
+          <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-lg border-l-4" style={{ borderColor: "#0F5A8F" }}>
+            <h3 className="font-display text-xl font-bold mb-4" style={{ color: "#0F5A8F" }}>
+              Competition Support
+            </h3>
+            <p className="text-gray-700 mb-4">
+              Beyond regular coaching sessions, we offer specialized support for students competing in debate tournaments, Model United Nations conferences, World Scholar's Cup, and other speaking competitions.
+            </p>
+            <div className="space-y-3">
+              <div className="flex gap-3">
+                <div className="text-2xl" style={{ color: "#2E9FD8" }}>✓</div>
+                <div>
+                  <h4 className="font-semibold text-gray-800">On-Site Coaching During Competitions</h4>
+                  <p className="text-gray-700 text-sm">Real-time coaching and strategy guidance during competition days to help students perform at their best.</p>
+                </div>
+              </div>
+              <div className="flex gap-3">
+                <div className="text-2xl" style={{ color: "#2E9FD8" }}>✓</div>
+                <div>
+                  <h4 className="font-semibold text-gray-800">Chaperoning Services</h4>
+                  <p className="text-gray-700 text-sm">Full chaperoning support for multi-day competitions, including preparation, guidance between rounds, and post-competition debriefs.</p>
+                </div>
+              </div>
+            </div>
+            <p className="text-gray-700 mt-6 text-sm italic">
+              Both services are available on special request. Please contact us to discuss your competition schedule and requirements.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-blue-50">
         <div className="max-w-4xl mx-auto">
@@ -142,7 +179,7 @@ export default function Pricing() {
               },
               {
                 q: "Are online sessions available?",
-                a: "Yes, we offer both in-person and online sessions at the same rates. Online sessions are conducted via Zoom or Google Meet.",
+                a: "Yes, we offer both in-person and online sessions. Private sessions can be conducted either way at the same rate. Group sessions are generally held online for convenience and flexibility, but on-site group classes are available for pre-prepared groupings—please enquire for details.",
               },
               {
                 q: "What is the minimum session duration?",
@@ -154,11 +191,15 @@ export default function Pricing() {
               },
               {
                 q: "How are group sessions formed?",
-                a: "Group sessions are formed based on age, level, and learning goals. We ensure groups are balanced and conducive to learning.",
+                a: "Group sessions are formed based on age, level, and learning goals. We ensure groups are balanced and conducive to learning. Group classes are generally held online; if you would like an on-site group class, please enquire about availability for pre-prepared groupings.",
               },
               {
                 q: "What is your cancellation policy?",
                 a: "We require 24 hours notice for cancellations. Sessions cancelled with less notice may be charged.",
+              },
+              {
+                q: "Are group classes held on-site or online?",
+                a: "Group classes are generally held online for maximum flexibility and convenience. However, on-site group sessions can be arranged for pre-prepared groupings. If you're interested in an on-site group class, please contact us to discuss your requirements.",
               },
             ].map((item, idx) => (
               <div key={idx} className="bg-white p-6 rounded-lg shadow-sm">

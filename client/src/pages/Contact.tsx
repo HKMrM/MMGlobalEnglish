@@ -101,13 +101,13 @@ export default function Contact() {
                     {
                       icon: <Mail size={20} />,
                       label: "Email",
-                      value: "hello@voiceacademyhk.com",
-                      href: "mailto:hello@voiceacademyhk.com",
+                      value: "HKMr.Michael@gmail.com",
+                      href: "mailto:HKMr.Michael@gmail.com",
                     },
                     {
                       icon: <Phone size={20} />,
                       label: "Phone / WhatsApp",
-                      value: "+852 9876 5432",
+                      value: "+852 5418 5811",
                       href: "tel:+85298765432",
                     },
                     {
@@ -248,7 +248,7 @@ export default function Contact() {
                           border: "1.5px solid rgba(27,67,50,0.2)",
                           color: "#1A2332",
                         }}
-                        placeholder="+852 xxxx xxxx"
+                        placeholder="+852 5418 5811"
                       />
                     </div>
                     <div>

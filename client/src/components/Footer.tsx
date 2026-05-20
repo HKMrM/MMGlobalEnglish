@@ -58,11 +58,11 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Mail size={16} className="mt-0.5 shrink-0" style={{ color: "#2E9FD8" }} />
                 <a
-                  href="mailto:hello@voiceacademyhk.com"
+                  href="mailto:HKMr.Michael@gmail.com"
                   className="font-body text-sm transition-colors hover:text-gold"
                   style={{ color: "rgba(253,246,236,0.75)" }}
                 >
-                  hello@voiceacademyhk.com
+                  HKMr.Michael@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -72,7 +72,7 @@ export default function Footer() {
                   className="font-body text-sm transition-colors hover:text-gold"
                   style={{ color: "rgba(253,246,236,0.75)" }}
                 >
-                  +852 9876 5432
+                  +852 5418 5811
                 </a>
               </li>
               <li className="flex items-start gap-3">

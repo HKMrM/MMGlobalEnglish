@@ -42,7 +42,7 @@ export default function Navbar() {
               className="font-display text-xl md:text-2xl font-semibold tracking-wide"
               style={{ color: "#1B4332" }}
             >
-              The Voice Academy
+              Modern English
             </span>
             <span
               className="font-accent text-sm tracking-widest"

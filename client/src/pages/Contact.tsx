@@ -74,7 +74,7 @@ export default function Contact() {
         />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
-            Get in Touch
+            Contact Modern English
           </div>
           <h1 className="font-display text-5xl lg:text-6xl font-semibold mb-4 leading-tight" style={{ color: "#FDF6EC" }}>
             Let's Start a Conversation

@@ -13,7 +13,7 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <div className="font-display text-2xl font-semibold" style={{ color: "#FDF6EC" }}>
-                Modern English
+                Us English
               </div>
               <div className="font-accent text-sm" style={{ color: "#C9A84C" }}>
                 Hong Kong
@@ -90,7 +90,7 @@ export default function Footer() {
           style={{ borderTop: "1px solid rgba(201,168,76,0.2)" }}
         >
           <p className="font-body text-xs" style={{ color: "rgba(253,246,236,0.45)" }}>
-            © {new Date().getFullYear()} Modern English HK. All rights reserved.
+            © {new Date().getFullYear()} Us English HK. All rights reserved.
           </p>
           <p className="font-accent text-sm" style={{ color: "rgba(201,168,76,0.6)" }}>
             Find your voice. Shape your world.

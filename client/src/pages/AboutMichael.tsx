@@ -120,10 +120,10 @@ export default function AboutMichael() {
                   Born and raised in New York, I graduated from Lehigh University with a focus on Political Science, Religion, and Musical Performance. These disciplines shaped how I approach communication coaching — understanding that great speakers must be informed, empathetic, and expressive.
                 </p>
                 <p>
-                  In New York, I coached award-winning debate teams competing in the US National Debate Championships and trained students for NHSMUN, the largest secondary school Model United Nations conference in the world. I also coached World Scholar's Cup teams to international recognition.
+                  For the past 15 years, I've been based in Hong Kong, working with students ages 2–18 across international and local schools. I've brought that same passion for debate, public speaking, and critical thinking to a new generation of Hong Kong students — many of whom have gone on to compete at the highest levels.
                 </p>
                 <p>
-                  For the past 15 years, I've been based in Hong Kong, working with students ages 2–18 across international and local schools. I've brought that same passion for debate, public speaking, and critical thinking to a new generation of Hong Kong students — many of whom have gone on to compete at the highest levels.
+                  In Hong Kong, I have chaperoned and coached award-winning debate teams competing in the US National Debate Championships and trained students for NHSMUN, the largest secondary school Model United Nations conference in the world. I also coached World Scholar's Cup teams to international recognition.
                 </p>
                 <p>
                   Beyond the classroom, I'm a singer with the Hong Kong Bach Choir and Commissioner of the Hong Kong Slow Pitch Softball Association — because I believe that communication and community engagement happen everywhere, not just in formal settings.

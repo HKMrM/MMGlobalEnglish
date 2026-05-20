@@ -15,8 +15,8 @@ export default function Footer() {
               <div className="font-display text-2xl font-semibold" style={{ color: "#F8FBFF" }}>
                 Us English
               </div>
-              <div className="font-accent text-sm" style={{ color: "#2E9FD8" }}>
-                Hong Kong
+              <div className="font-body text-sm font-semibold" style={{ color: "#2E9FD8" }}>
+                with Mr. Michael
               </div>
             </div>
             <p className="font-body text-sm leading-relaxed" style={{ color: "rgba(253,246,236,0.7)" }}>

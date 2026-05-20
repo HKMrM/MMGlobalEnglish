@@ -38,18 +38,26 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Wordmark */}
-          <Link href="/" className="flex flex-col leading-none group">
+          <Link href="/" className="flex flex-col leading-tight group">
+            <div className="flex items-baseline gap-2">
+              <span
+                className="font-display text-2xl md:text-3xl font-bold tracking-wide"
+                style={{ color: "#0F5A8F" }}
+              >
+                Us English
+              </span>
+              <span
+                className="font-body text-xs md:text-sm font-semibold px-2 py-1 rounded"
+                style={{ backgroundColor: "#0F5A8F", color: "#F8FBFF" }}
+              >
+                Mr. Michael
+              </span>
+            </div>
             <span
-              className="font-display text-xl md:text-2xl font-semibold tracking-wide"
-              style={{ color: "#0F5A8F" }}
-            >
-              Us English
-            </span>
-            <span
-              className="font-accent text-sm tracking-widest"
+              className="font-accent text-xs tracking-widest mt-0.5"
               style={{ color: "#2E9FD8" }}
             >
-              Hong Kong
+              English Communication Coaching
             </span>
           </Link>
 

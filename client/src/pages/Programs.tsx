@@ -35,8 +35,8 @@ const ageGroups = [
     label: "Lower Primary",
     years: "P1 – P3",
     tagline: "Building the Foundation",
-    color: "#A8C5A0",
-    textColor: "#1B4332",
+    color: "#7CB9D9",
+    textColor: "#0F5A8F",
     bgColor: "rgba(168,197,160,0.15)",
     programs: [
       {
@@ -72,8 +72,8 @@ const ageGroups = [
     label: "Upper Primary",
     years: "P4 – P6",
     tagline: "Developing Expression",
-    color: "#C9A84C",
-    textColor: "#0F2D1E",
+    color: "#2E9FD8",
+    textColor: "#0A3A5C",
     bgColor: "rgba(201,168,76,0.12)",
     programs: [
       {
@@ -109,8 +109,8 @@ const ageGroups = [
     label: "Junior Secondary",
     years: "S1 – S3",
     tagline: "Sharpening Argumentation",
-    color: "#2D6A4F",
-    textColor: "#FDF6EC",
+    color: "#1B7AB8",
+    textColor: "#F8FBFF",
     bgColor: "rgba(45,106,79,0.1)",
     programs: [
       {
@@ -146,8 +146,8 @@ const ageGroups = [
     label: "Senior Secondary",
     years: "S4 – S6",
     tagline: "Achieving Mastery",
-    color: "#1B4332",
-    textColor: "#FDF6EC",
+    color: "#0F5A8F",
+    textColor: "#F8FBFF",
     bgColor: "rgba(27,67,50,0.08)",
     programs: [
       {
@@ -213,13 +213,13 @@ export default function Programs() {
   const activeGroup = ageGroups.find((g) => g.id === activeTab)!;
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "#FDF6EC" }}>
+    <div className="min-h-screen" style={{ backgroundColor: "#F8FBFF" }}>
       <Navbar />
 
       {/* Page Hero */}
       <section
         className="pt-32 pb-16 relative overflow-hidden"
-        style={{ backgroundColor: "#1B4332" }}
+        style={{ backgroundColor: "#0F5A8F" }}
       >
         <div
           className="absolute inset-0 opacity-10"
@@ -228,10 +228,10 @@ export default function Programs() {
           }}
         />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+          <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
             Us English Programmes
           </div>
-          <h1 className="font-display text-5xl lg:text-6xl font-semibold mb-4 leading-tight" style={{ color: "#FDF6EC" }}>
+          <h1 className="font-display text-5xl lg:text-6xl font-semibold mb-4 leading-tight" style={{ color: "#F8FBFF" }}>
             Tailored to Every Stage
           </h1>
           <p className="font-body text-lg max-w-2xl" style={{ color: "rgba(253,246,236,0.8)" }}>
@@ -241,7 +241,7 @@ export default function Programs() {
       </section>
 
       {/* Age Group Tabs */}
-      <section className="sticky top-16 md:top-20 z-40 shadow-sm" style={{ backgroundColor: "#F5ECD8" }}>
+      <section className="sticky top-16 md:top-20 z-40 shadow-sm" style={{ backgroundColor: "#E8F2FB" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex overflow-x-auto gap-0 scrollbar-hide">
             {ageGroups.map((group) => (
@@ -250,8 +250,8 @@ export default function Programs() {
                 onClick={() => setActiveTab(group.id)}
                 className="flex-shrink-0 px-5 py-4 font-body text-sm font-medium transition-all duration-200 border-b-2 whitespace-nowrap"
                 style={{
-                  borderBottomColor: activeTab === group.id ? "#1B4332" : "transparent",
-                  color: activeTab === group.id ? "#1B4332" : "#4A4A4A",
+                  borderBottomColor: activeTab === group.id ? "#0F5A8F" : "transparent",
+                  color: activeTab === group.id ? "#0F5A8F" : "#4A4A4A",
                   backgroundColor: "transparent",
                   fontWeight: activeTab === group.id ? 700 : 400,
                 }}
@@ -261,7 +261,7 @@ export default function Programs() {
                   className="ml-2 text-xs px-2 py-0.5 rounded-full font-body"
                   style={{
                     backgroundColor: activeTab === group.id ? "rgba(27,67,50,0.12)" : "rgba(0,0,0,0.06)",
-                    color: activeTab === group.id ? "#1B4332" : "#666",
+                    color: activeTab === group.id ? "#0F5A8F" : "#666",
                   }}
                 >
                   {group.years}
@@ -273,21 +273,21 @@ export default function Programs() {
       </section>
 
       {/* Programme Content */}
-      <section className="py-20" style={{ backgroundColor: "#FDF6EC" }}>
+      <section className="py-20" style={{ backgroundColor: "#F8FBFF" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-10">
             <div
               className="inline-block font-accent text-lg px-4 py-1.5 rounded-full mb-3"
               style={{
                 backgroundColor: activeGroup.bgColor,
-                color: activeGroup.textColor === "#FDF6EC" ? activeGroup.color : activeGroup.textColor,
+                color: activeGroup.textColor === "#F8FBFF" ? activeGroup.color : activeGroup.textColor,
               }}
             >
               {activeGroup.tagline}
             </div>
-            <h2 className="font-display text-3xl lg:text-4xl font-semibold" style={{ color: "#1B4332" }}>
+            <h2 className="font-display text-3xl lg:text-4xl font-semibold" style={{ color: "#0F5A8F" }}>
               {activeGroup.label} Programmes
-              <span className="font-body text-base font-normal ml-3" style={{ color: "#C9A84C" }}>
+              <span className="font-body text-base font-normal ml-3" style={{ color: "#2E9FD8" }}>
                 {activeGroup.years}
               </span>
             </h2>
@@ -298,29 +298,29 @@ export default function Programs() {
               <div
                 key={prog.title}
                 className="rounded-xl overflow-hidden shadow-sm card-lift"
-                style={{ backgroundColor: "#FDF6EC", border: "1px solid rgba(27,67,50,0.1)" }}
+                style={{ backgroundColor: "#F8FBFF", border: "1px solid rgba(27,67,50,0.1)" }}
               >
                 <div
                   className="h-1.5"
                   style={{ backgroundColor: activeGroup.color }}
                 />
                 <div className="p-8">
-                  <h3 className="font-display text-2xl font-semibold mb-3" style={{ color: "#1B4332" }}>
+                  <h3 className="font-display text-2xl font-semibold mb-3" style={{ color: "#0F5A8F" }}>
                     {prog.title}
                   </h3>
-                  <p className="font-body text-sm leading-relaxed mb-6" style={{ color: "#2C2C2C" }}>
+                  <p className="font-body text-sm leading-relaxed mb-6" style={{ color: "#1A2332" }}>
                     {prog.desc}
                   </p>
 
                   <div className="mb-6">
-                    <div className="font-body text-xs font-semibold uppercase tracking-wider mb-3" style={{ color: "#C9A84C" }}>
+                    <div className="font-body text-xs font-semibold uppercase tracking-wider mb-3" style={{ color: "#2E9FD8" }}>
                       Skills Developed
                     </div>
                     <ul className="space-y-2">
                       {prog.skills.map((skill) => (
                         <li key={skill} className="flex items-start gap-2.5">
-                          <CheckCircle2 size={15} className="mt-0.5 shrink-0" style={{ color: "#2D6A4F" }} />
-                          <span className="font-body text-sm" style={{ color: "#2C2C2C" }}>
+                          <CheckCircle2 size={15} className="mt-0.5 shrink-0" style={{ color: "#1B7AB8" }} />
+                          <span className="font-body text-sm" style={{ color: "#1A2332" }}>
                             {skill}
                           </span>
                         </li>
@@ -333,18 +333,18 @@ export default function Programs() {
                     style={{ borderTop: "1px solid rgba(27,67,50,0.1)" }}
                   >
                     <div>
-                      <div className="font-body text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: "#C9A84C" }}>
+                      <div className="font-body text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: "#2E9FD8" }}>
                         Format
                       </div>
-                      <div className="font-body text-sm" style={{ color: "#2C2C2C" }}>
+                      <div className="font-body text-sm" style={{ color: "#1A2332" }}>
                         {prog.format}
                       </div>
                     </div>
                     <div>
-                      <div className="font-body text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: "#C9A84C" }}>
+                      <div className="font-body text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: "#2E9FD8" }}>
                         Frequency
                       </div>
-                      <div className="font-body text-sm" style={{ color: "#2C2C2C" }}>
+                      <div className="font-body text-sm" style={{ color: "#1A2332" }}>
                         {prog.frequency}
                       </div>
                     </div>
@@ -358,7 +358,7 @@ export default function Programs() {
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded font-body font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-              style={{ backgroundColor: "#1B4332", color: "#FDF6EC" }}
+              style={{ backgroundColor: "#0F5A8F", color: "#F8FBFF" }}
             >
               Enquire About This Programme <ArrowRight size={16} />
             </Link>
@@ -367,20 +367,20 @@ export default function Programs() {
       </section>
 
       {/* Competition Pathway */}
-      <section className="py-24" style={{ backgroundColor: "#F5ECD8" }}>
+      <section className="py-24" style={{ backgroundColor: "#E8F2FB" }}>
         <div
           ref={competitionsSection.ref}
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
             <div>
-              <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+              <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
                 Competition Pathway
               </div>
-              <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-5 leading-tight" style={{ color: "#1B4332" }}>
+              <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-5 leading-tight" style={{ color: "#0F5A8F" }}>
                 From Classroom to World Stage
               </h2>
-              <p className="font-body text-base leading-relaxed" style={{ color: "#2C2C2C" }}>
+              <p className="font-body text-base leading-relaxed" style={{ color: "#1A2332" }}>
                 For students who are ready to take their skills beyond the classroom, we offer dedicated preparation for some of the world's most prestigious academic competitions. These experiences build not just communication skills, but resilience, global awareness, and lifelong friendships.
               </p>
             </div>
@@ -400,19 +400,19 @@ export default function Programs() {
                 key={comp.name}
                 className={`card-lift rounded-xl p-7 transition-all duration-700 ${competitionsSection.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
                 style={{
-                  backgroundColor: "#FDF6EC",
+                  backgroundColor: "#F8FBFF",
                   boxShadow: "0 4px 20px rgba(27,67,50,0.08)",
                   transitionDelay: `${i * 80}ms`,
                 }}
               >
                 <div className="text-3xl mb-4">{comp.icon}</div>
                 <div className="flex items-start justify-between mb-2">
-                  <h3 className="font-display text-xl font-semibold" style={{ color: "#1B4332" }}>
+                  <h3 className="font-display text-xl font-semibold" style={{ color: "#0F5A8F" }}>
                     {comp.name}
                   </h3>
                   <span
                     className="font-body text-xs px-2.5 py-1 rounded-full ml-3 shrink-0 font-medium"
-                    style={{ backgroundColor: "rgba(27,67,50,0.1)", color: "#1B4332" }}
+                    style={{ backgroundColor: "rgba(27,67,50,0.1)", color: "#0F5A8F" }}
                   >
                     {comp.level}
                   </span>
@@ -427,7 +427,7 @@ export default function Programs() {
       </section>
 
       {/* Approach section */}
-      <section className="py-24" style={{ backgroundColor: "#1B4332" }}>
+      <section className="py-24" style={{ backgroundColor: "#0F5A8F" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
@@ -439,10 +439,10 @@ export default function Programs() {
               />
             </div>
             <div>
-              <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+              <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
                 How We Teach
               </div>
-              <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-6 leading-tight" style={{ color: "#FDF6EC" }}>
+              <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-6 leading-tight" style={{ color: "#F8FBFF" }}>
                 Personalised. Progressive. Purposeful.
               </h2>
               <div className="space-y-5">
@@ -465,9 +465,9 @@ export default function Programs() {
                   },
                 ].map((point) => (
                   <div key={point.title} className="flex items-start gap-4">
-                    <Star size={18} className="mt-1 shrink-0" style={{ color: "#C9A84C" }} />
+                    <Star size={18} className="mt-1 shrink-0" style={{ color: "#2E9FD8" }} />
                     <div>
-                      <div className="font-body font-semibold text-sm mb-1" style={{ color: "#FDF6EC" }}>
+                      <div className="font-body font-semibold text-sm mb-1" style={{ color: "#F8FBFF" }}>
                         {point.title}
                       </div>
                       <div className="font-body text-sm" style={{ color: "rgba(253,246,236,0.7)" }}>
@@ -481,7 +481,7 @@ export default function Programs() {
                 <Link
                   href="/contact"
                   className="inline-flex items-center gap-2 px-7 py-3.5 rounded font-body font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-                  style={{ backgroundColor: "#C9A84C", color: "#0F2D1E" }}
+                  style={{ backgroundColor: "#2E9FD8", color: "#0A3A5C" }}
                 >
                   Book a Free Consultation <ArrowRight size={16} />
                 </Link>

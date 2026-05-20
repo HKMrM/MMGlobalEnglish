@@ -39,37 +39,37 @@ const programHighlights = [
     icon: <Mic size={28} />,
     title: "Public Speaking",
     desc: "From body language and vocal projection to structuring persuasive arguments — students learn to own any room with confidence.",
-    color: "#1B4332",
+    color: "#0F5A8F",
   },
   {
     icon: <Users size={28} />,
     title: "Debate & Critical Thinking",
     desc: "Structured debate training that sharpens logical reasoning, empathy for opposing views, and the ability to cut through information overload.",
-    color: "#2D6A4F",
+    color: "#1B7AB8",
   },
   {
     icon: <Globe size={28} />,
     title: "MUN & World Scholar's Cup",
     desc: "A guided pathway through competitive academic programmes — Model United Nations, World Scholar's Cup, and beyond.",
-    color: "#1B4332",
+    color: "#0F5A8F",
   },
   {
     icon: <PenLine size={28} />,
     title: "Creative Writing",
     desc: "Building rich vocabularies and imaginative expression — helping younger students find their unique voice on the page.",
-    color: "#2D6A4F",
+    color: "#1B7AB8",
   },
   {
     icon: <Brain size={28} />,
     title: "Critical Analysis",
     desc: "Navigating today's information landscape: evaluating sources, understanding bias, and forming well-reasoned positions on complex issues.",
-    color: "#1B4332",
+    color: "#0F5A8F",
   },
   {
     icon: <BookOpen size={28} />,
     title: "English Communication",
     desc: "A holistic approach covering vocabulary, comprehension, oral fluency, and written expression across all academic levels.",
-    color: "#2D6A4F",
+    color: "#1B7AB8",
   },
 ];
 
@@ -79,28 +79,28 @@ const pathway = [
     years: "P1 – P3",
     focus: "Foundation",
     skills: ["Vocabulary building", "Storytelling & creative writing", "Confident self-expression", "Body language basics"],
-    accent: "#A8C5A0",
+    accent: "#7CB9D9",
   },
   {
     stage: "Upper Primary",
     years: "P4 – P6",
     focus: "Expression",
     skills: ["Public speaking fundamentals", "Structured debate introduction", "Opinion writing", "Listening & empathy skills"],
-    accent: "#C9A84C",
+    accent: "#2E9FD8",
   },
   {
     stage: "Junior Secondary",
     years: "S1 – S3",
     focus: "Argumentation",
     skills: ["Formal debate formats", "Critical source evaluation", "MUN preparation", "Persuasive & analytical writing"],
-    accent: "#2D6A4F",
+    accent: "#1B7AB8",
   },
   {
     stage: "Senior Secondary",
     years: "S4 – S6",
     focus: "Mastery",
     skills: ["World Scholar's Cup", "Advanced MUN", "Academic essay writing", "Interview & presentation skills"],
-    accent: "#1B4332",
+    accent: "#0F5A8F",
   },
 ];
 
@@ -130,7 +130,7 @@ export default function Home() {
   const ctaSection = useInView();
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "#FDF6EC" }}>
+    <div className="min-h-screen" style={{ backgroundColor: "#F8FBFF" }}>
       <Navbar />
 
       {/* ── HERO ── */}
@@ -149,17 +149,17 @@ export default function Home() {
           <div className="max-w-2xl">
             <div
               className="inline-block font-accent text-base mb-6 px-4 py-1.5 rounded-full"
-              style={{ backgroundColor: "rgba(201,168,76,0.25)", color: "#E8C97A", border: "1px solid rgba(201,168,76,0.4)" }}
+              style={{ backgroundColor: "rgba(201,168,76,0.25)", color: "#5CB8E6", border: "1px solid rgba(201,168,76,0.4)" }}
             >
               Private Coaching · Hong Kong
             </div>
             <h1
               className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up"
-              style={{ color: "#FDF6EC" }}
+              style={{ color: "#F8FBFF" }}
             >
               Find Your Voice.
               <br />
-              <em className="italic font-light" style={{ color: "#E8C97A" }}>Shape Your World.</em>
+              <em className="italic font-light" style={{ color: "#5CB8E6" }}>Shape Your World.</em>
             </h1>
             <p
               className="font-body text-lg sm:text-xl leading-relaxed mb-8 animate-fade-up-delay-1"
@@ -171,14 +171,14 @@ export default function Home() {
               <Link
                 href="/programs"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded font-body font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-                style={{ backgroundColor: "#C9A84C", color: "#0F2D1E" }}
+                style={{ backgroundColor: "#2E9FD8", color: "#0A3A5C" }}
               >
                 Explore Programmes <ArrowRight size={16} />
               </Link>
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded font-body font-semibold text-sm transition-all duration-200 hover:bg-white/20"
-                style={{ border: "1.5px solid rgba(253,246,236,0.6)", color: "#FDF6EC" }}
+                style={{ border: "1.5px solid rgba(253,246,236,0.6)", color: "#F8FBFF" }}
               >
                 Book a Free Consultation
               </Link>
@@ -192,7 +192,7 @@ export default function Home() {
       </section>
 
       {/* ── PHILOSOPHY ── */}
-      <section className="py-24" style={{ backgroundColor: "#FDF6EC" }}>
+      <section className="py-24" style={{ backgroundColor: "#F8FBFF" }}>
         <div
           ref={philosophySection.ref}
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
@@ -204,7 +204,7 @@ export default function Home() {
             >
               <div
                 className="absolute -top-4 -left-4 w-full h-full rounded-lg"
-                style={{ backgroundColor: "#A8C5A0", opacity: 0.35 }}
+                style={{ backgroundColor: "#7CB9D9", opacity: 0.35 }}
               />
               <img
                 src={COACHING_IMG}
@@ -214,12 +214,12 @@ export default function Home() {
               />
               <div
                 className="absolute -bottom-6 -right-6 rounded-lg p-5 shadow-lg"
-                style={{ backgroundColor: "#1B4332" }}
+                style={{ backgroundColor: "#0F5A8F" }}
               >
-                <p className="font-accent text-lg" style={{ color: "#C9A84C" }}>
+                <p className="font-accent text-lg" style={{ color: "#2E9FD8" }}>
                   "The ability to communicate
                 </p>
-                <p className="font-accent text-lg" style={{ color: "#C9A84C" }}>
+                <p className="font-accent text-lg" style={{ color: "#2E9FD8" }}>
                   is the superpower of our age."
                 </p>
               </div>
@@ -229,25 +229,25 @@ export default function Home() {
             <div
               className={`transition-all duration-700 delay-200 ${philosophySection.inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-8"}`}
             >
-              <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+              <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
                 Our Philosophy
               </div>
-              <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-6 leading-tight" style={{ color: "#1B4332" }}>
+              <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-6 leading-tight" style={{ color: "#0F5A8F" }}>
                 Communication is More Than Words
               </h2>
-              <p className="font-body text-base leading-relaxed mb-5" style={{ color: "#2C2C2C" }}>
+              <p className="font-body text-base leading-relaxed mb-5" style={{ color: "#1A2332" }}>
                 In today's world, students are bombarded with information, opinions, and competing narratives on every critical issue — from climate change to social justice, from technology to global politics. The challenge is no longer accessing information; it is knowing what to do with it.
               </p>
-              <p className="font-body text-base leading-relaxed mb-5" style={{ color: "#2C2C2C" }}>
+              <p className="font-body text-base leading-relaxed mb-5" style={{ color: "#1A2332" }}>
                 At The Voice Academy HK, we guide students to sort through sources, develop genuine empathy in listening, understand multiple perspectives, and ultimately express their own well-reasoned views — with clarity, confidence, and conviction.
               </p>
-              <p className="font-body text-base leading-relaxed mb-8" style={{ color: "#2C2C2C" }}>
+              <p className="font-body text-base leading-relaxed mb-8" style={{ color: "#1A2332" }}>
                 These are not just academic skills. They are the foundations of thoughtful citizenship and a meaningful life.
               </p>
               <Link
                 href="/about"
                 className="inline-flex items-center gap-2 font-body font-semibold text-sm transition-colors hover:gap-3"
-                style={{ color: "#1B4332" }}
+                style={{ color: "#0F5A8F" }}
               >
                 Learn more about our approach <ArrowRight size={16} />
               </Link>
@@ -257,19 +257,19 @@ export default function Home() {
       </section>
 
       {/* ── PROGRAMME HIGHLIGHTS ── */}
-      <section className="py-24" style={{ backgroundColor: "#F5ECD8" }}>
+      <section className="py-24" style={{ backgroundColor: "#E8F2FB" }}>
         <div
           ref={programsSection.ref}
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
           <div className="text-center mb-16">
-            <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+            <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
               What We Offer
             </div>
-            <h2 className="font-display text-4xl lg:text-5xl font-semibold" style={{ color: "#1B4332" }}>
+            <h2 className="font-display text-4xl lg:text-5xl font-semibold" style={{ color: "#0F5A8F" }}>
               A Complete Communication Education
             </h2>
-            <p className="font-body text-base mt-4 max-w-2xl mx-auto" style={{ color: "#2C2C2C" }}>
+            <p className="font-body text-base mt-4 max-w-2xl mx-auto" style={{ color: "#1A2332" }}>
               Every programme is tailored to the student's age, level, and goals — building skills progressively from first words to world-stage performance.
             </p>
           </div>
@@ -280,7 +280,7 @@ export default function Home() {
                 key={prog.title}
                 className={`card-lift rounded-xl p-7 transition-all duration-700 ${programsSection.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
                 style={{
-                  backgroundColor: "#FDF6EC",
+                  backgroundColor: "#F8FBFF",
                   transitionDelay: `${i * 80}ms`,
                   boxShadow: "0 4px 20px rgba(27,67,50,0.08)",
                 }}
@@ -291,7 +291,7 @@ export default function Home() {
                 >
                   {prog.icon}
                 </div>
-                <h3 className="font-display text-xl font-semibold mb-3" style={{ color: "#1B4332" }}>
+                <h3 className="font-display text-xl font-semibold mb-3" style={{ color: "#0F5A8F" }}>
                   {prog.title}
                 </h3>
                 <p className="font-body text-sm leading-relaxed" style={{ color: "#4A4A4A" }}>
@@ -305,7 +305,7 @@ export default function Home() {
             <Link
               href="/programs"
               className="inline-flex items-center gap-2 px-8 py-3.5 rounded font-body font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-              style={{ backgroundColor: "#1B4332", color: "#FDF6EC" }}
+              style={{ backgroundColor: "#0F5A8F", color: "#F8FBFF" }}
             >
               View All Programmes <ArrowRight size={16} />
             </Link>
@@ -314,19 +314,19 @@ export default function Home() {
       </section>
 
       {/* ── STUDENT PATHWAY ── */}
-      <section className="py-24 overflow-hidden" style={{ backgroundColor: "#FDF6EC" }}>
+      <section className="py-24 overflow-hidden" style={{ backgroundColor: "#F8FBFF" }}>
         <div
           ref={pathwaySection.ref}
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
           <div className="text-center mb-16">
-            <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+            <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
               The Journey
             </div>
-            <h2 className="font-display text-4xl lg:text-5xl font-semibold" style={{ color: "#1B4332" }}>
+            <h2 className="font-display text-4xl lg:text-5xl font-semibold" style={{ color: "#0F5A8F" }}>
               A Pathway Through Every Stage
             </h2>
-            <p className="font-body text-base mt-4 max-w-2xl mx-auto" style={{ color: "#2C2C2C" }}>
+            <p className="font-body text-base mt-4 max-w-2xl mx-auto" style={{ color: "#1A2332" }}>
               We meet students where they are and guide them forward — from building a first vocabulary to competing on the international stage.
             </p>
           </div>
@@ -349,15 +349,15 @@ export default function Home() {
                   <div className="flex lg:flex-col items-center lg:items-start gap-4 mb-5">
                     <div
                       className="w-10 h-10 rounded-full flex items-center justify-center font-body font-bold text-sm shrink-0"
-                      style={{ backgroundColor: stage.accent, color: i >= 2 ? "#FDF6EC" : "#1B4332" }}
+                      style={{ backgroundColor: stage.accent, color: i >= 2 ? "#F8FBFF" : "#0F5A8F" }}
                     >
                       {i + 1}
                     </div>
                     <div>
-                      <div className="font-display text-xl font-semibold" style={{ color: "#1B4332" }}>
+                      <div className="font-display text-xl font-semibold" style={{ color: "#0F5A8F" }}>
                         {stage.stage}
                       </div>
-                      <div className="font-body text-xs font-medium" style={{ color: "#C9A84C" }}>
+                      <div className="font-body text-xs font-medium" style={{ color: "#2E9FD8" }}>
                         {stage.years} · {stage.focus}
                       </div>
                     </div>
@@ -366,7 +366,7 @@ export default function Home() {
                   <div
                     className="rounded-xl p-5"
                     style={{
-                      backgroundColor: "#F5ECD8",
+                      backgroundColor: "#E8F2FB",
                       borderLeft: `3px solid ${stage.accent}`,
                     }}
                   >
@@ -374,7 +374,7 @@ export default function Home() {
                       {stage.skills.map((skill) => (
                         <li key={skill} className="flex items-start gap-2">
                           <span className="mt-1.5 w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: stage.accent }} />
-                          <span className="font-body text-sm" style={{ color: "#2C2C2C" }}>
+                          <span className="font-body text-sm" style={{ color: "#1A2332" }}>
                             {skill}
                           </span>
                         </li>
@@ -389,14 +389,14 @@ export default function Home() {
       </section>
 
       {/* ── COMPETITION SPOTLIGHT ── */}
-      <section className="py-24" style={{ backgroundColor: "#1B4332" }}>
+      <section className="py-24" style={{ backgroundColor: "#0F5A8F" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+              <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
                 Beyond the Classroom
               </div>
-              <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-6 leading-tight" style={{ color: "#FDF6EC" }}>
+              <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-6 leading-tight" style={{ color: "#F8FBFF" }}>
                 Compete on the World Stage
               </h2>
               <p className="font-body text-base leading-relaxed mb-5" style={{ color: "rgba(253,246,236,0.8)" }}>
@@ -414,7 +414,7 @@ export default function Home() {
                     className="rounded-lg p-4"
                     style={{ backgroundColor: "rgba(253,246,236,0.08)", border: "1px solid rgba(201,168,76,0.25)" }}
                   >
-                    <div className="font-display text-base font-semibold mb-1" style={{ color: "#C9A84C" }}>
+                    <div className="font-display text-base font-semibold mb-1" style={{ color: "#2E9FD8" }}>
                       {comp.name}
                     </div>
                     <div className="font-body text-xs" style={{ color: "rgba(253,246,236,0.65)" }}>
@@ -426,7 +426,7 @@ export default function Home() {
               <Link
                 href="/programs"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded font-body font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-                style={{ backgroundColor: "#C9A84C", color: "#0F2D1E" }}
+                style={{ backgroundColor: "#2E9FD8", color: "#0A3A5C" }}
               >
                 See the Full Pathway <ArrowRight size={16} />
               </Link>
@@ -440,10 +440,10 @@ export default function Home() {
               />
               <div
                 className="absolute -bottom-5 -left-5 rounded-lg p-4 shadow-lg"
-                style={{ backgroundColor: "#C9A84C" }}
+                style={{ backgroundColor: "#2E9FD8" }}
               >
-                <div className="font-display text-2xl font-bold" style={{ color: "#0F2D1E" }}>MUN</div>
-                <div className="font-body text-xs font-semibold" style={{ color: "#0F2D1E" }}>Model United Nations</div>
+                <div className="font-display text-2xl font-bold" style={{ color: "#0A3A5C" }}>MUN</div>
+                <div className="font-body text-xs font-semibold" style={{ color: "#0A3A5C" }}>Model United Nations</div>
               </div>
             </div>
           </div>
@@ -451,16 +451,16 @@ export default function Home() {
       </section>
 
       {/* ── TOPICS WE EXPLORE ── */}
-      <section className="py-24" style={{ backgroundColor: "#F5ECD8" }}>
+      <section className="py-24" style={{ backgroundColor: "#E8F2FB" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+            <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
               Topics & Themes
             </div>
-            <h2 className="font-display text-4xl lg:text-5xl font-semibold" style={{ color: "#1B4332" }}>
+            <h2 className="font-display text-4xl lg:text-5xl font-semibold" style={{ color: "#0F5A8F" }}>
               The World is the Curriculum
             </h2>
-            <p className="font-body text-base mt-4 max-w-2xl mx-auto" style={{ color: "#2C2C2C" }}>
+            <p className="font-body text-base mt-4 max-w-2xl mx-auto" style={{ color: "#1A2332" }}>
               We draw on topics that are relevant, engaging, and meaningful — from everyday life to the most pressing global challenges.
             </p>
           </div>
@@ -477,7 +477,7 @@ export default function Home() {
                 className="font-body text-sm px-4 py-2 rounded-full font-medium"
                 style={{
                   backgroundColor: i % 3 === 0 ? "rgba(27,67,50,0.1)" : i % 3 === 1 ? "rgba(201,168,76,0.18)" : "rgba(168,197,160,0.35)",
-                  color: "#1B4332",
+                  color: "#0F5A8F",
                   border: "1px solid rgba(27,67,50,0.12)",
                 }}
               >
@@ -489,16 +489,16 @@ export default function Home() {
       </section>
 
       {/* ── TESTIMONIALS ── */}
-      <section className="py-24" style={{ backgroundColor: "#FDF6EC" }}>
+      <section className="py-24" style={{ backgroundColor: "#F8FBFF" }}>
         <div
           ref={testimonialsSection.ref}
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
           <div className="text-center mb-16">
-            <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+            <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
               What Families Say
             </div>
-            <h2 className="font-display text-4xl lg:text-5xl font-semibold" style={{ color: "#1B4332" }}>
+            <h2 className="font-display text-4xl lg:text-5xl font-semibold" style={{ color: "#0F5A8F" }}>
               Voices of Our Community
             </h2>
           </div>
@@ -509,7 +509,7 @@ export default function Home() {
                 key={i}
                 className={`card-lift rounded-xl p-8 relative transition-all duration-700 ${testimonialsSection.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
                 style={{
-                  backgroundColor: "#FDF6EC",
+                  backgroundColor: "#F8FBFF",
                   boxShadow: "0 4px 24px rgba(27,67,50,0.1)",
                   transitionDelay: `${i * 100}ms`,
                 }}
@@ -520,21 +520,21 @@ export default function Home() {
                 >
                   "
                 </div>
-                <p className="font-body text-sm leading-relaxed mb-6 pt-4" style={{ color: "#2C2C2C" }}>
+                <p className="font-body text-sm leading-relaxed mb-6 pt-4" style={{ color: "#1A2332" }}>
                   {t.quote}
                 </p>
                 <div className="flex items-center gap-3">
                   <div
                     className="w-8 h-8 rounded-full flex items-center justify-center font-display font-bold text-sm"
-                    style={{ backgroundColor: "#1B4332", color: "#FDF6EC" }}
+                    style={{ backgroundColor: "#0F5A8F", color: "#F8FBFF" }}
                   >
                     {t.name[0]}
                   </div>
                   <div>
-                    <div className="font-body text-sm font-semibold" style={{ color: "#1B4332" }}>
+                    <div className="font-body text-sm font-semibold" style={{ color: "#0F5A8F" }}>
                       {t.name}
                     </div>
-                    <div className="font-body text-xs" style={{ color: "#C9A84C" }}>
+                    <div className="font-body text-xs" style={{ color: "#2E9FD8" }}>
                       {t.detail}
                     </div>
                   </div>
@@ -549,7 +549,7 @@ export default function Home() {
       <section
         ref={ctaSection.ref}
         className="py-24 relative overflow-hidden"
-        style={{ backgroundColor: "#0F2D1E" }}
+        style={{ backgroundColor: "#0A3A5C" }}
       >
         <div
           className="absolute inset-0 opacity-10"
@@ -561,13 +561,13 @@ export default function Home() {
           <div
             className={`transition-all duration-700 ${ctaSection.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
           >
-            <div className="font-accent text-xl mb-4" style={{ color: "#C9A84C" }}>
+            <div className="font-accent text-xl mb-4" style={{ color: "#2E9FD8" }}>
               Begin the Journey
             </div>
-            <h2 className="font-display text-4xl lg:text-6xl font-semibold mb-6 leading-tight" style={{ color: "#FDF6EC" }}>
+            <h2 className="font-display text-4xl lg:text-6xl font-semibold mb-6 leading-tight" style={{ color: "#F8FBFF" }}>
               Ready to Give Your Child
               <br />
-              <em className="italic font-light" style={{ color: "#E8C97A" }}>a Voice That Matters?</em>
+              <em className="italic font-light" style={{ color: "#5CB8E6" }}>a Voice That Matters?</em>
             </h2>
             <p className="font-body text-lg mb-10" style={{ color: "rgba(253,246,236,0.75)" }}>
               Book a free 30-minute consultation to discuss your child's goals and find the right programme for them.
@@ -576,14 +576,14 @@ export default function Home() {
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded font-body font-semibold text-base transition-all duration-200 hover:shadow-xl hover:-translate-y-1"
-                style={{ backgroundColor: "#C9A84C", color: "#0F2D1E" }}
+                style={{ backgroundColor: "#2E9FD8", color: "#0A3A5C" }}
               >
                 Book a Free Consultation <ArrowRight size={18} />
               </Link>
               <Link
                 href="/programs"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded font-body font-semibold text-base transition-all duration-200 hover:bg-white/10"
-                style={{ border: "1.5px solid rgba(253,246,236,0.4)", color: "#FDF6EC" }}
+                style={{ border: "1.5px solid rgba(253,246,236,0.4)", color: "#F8FBFF" }}
               >
                 Explore Programmes
               </Link>

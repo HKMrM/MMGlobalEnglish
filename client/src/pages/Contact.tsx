@@ -58,13 +58,13 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "#FDF6EC" }}>
+    <div className="min-h-screen" style={{ backgroundColor: "#F8FBFF" }}>
       <Navbar />
 
       {/* Page Hero */}
       <section
         className="pt-32 pb-16 relative overflow-hidden"
-        style={{ backgroundColor: "#1B4332" }}
+        style={{ backgroundColor: "#0F5A8F" }}
       >
         <div
           className="absolute inset-0 opacity-10"
@@ -73,10 +73,10 @@ export default function Contact() {
           }}
         />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+          <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
             Contact Us English
           </div>
-          <h1 className="font-display text-5xl lg:text-6xl font-semibold mb-4 leading-tight" style={{ color: "#FDF6EC" }}>
+          <h1 className="font-display text-5xl lg:text-6xl font-semibold mb-4 leading-tight" style={{ color: "#F8FBFF" }}>
             Let's Start a Conversation
           </h1>
           <p className="font-body text-lg max-w-2xl" style={{ color: "rgba(253,246,236,0.8)" }}>
@@ -93,7 +93,7 @@ export default function Contact() {
             {/* Contact Info */}
             <div className="lg:col-span-1 space-y-8">
               <div>
-                <h2 className="font-display text-2xl font-semibold mb-6" style={{ color: "#1B4332" }}>
+                <h2 className="font-display text-2xl font-semibold mb-6" style={{ color: "#0F5A8F" }}>
                   Contact Details
                 </h2>
                 <div className="space-y-5">
@@ -126,24 +126,24 @@ export default function Contact() {
                     <div key={item.label} className="flex items-start gap-4">
                       <div
                         className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
-                        style={{ backgroundColor: "rgba(27,67,50,0.1)", color: "#1B4332" }}
+                        style={{ backgroundColor: "rgba(27,67,50,0.1)", color: "#0F5A8F" }}
                       >
                         {item.icon}
                       </div>
                       <div>
-                        <div className="font-body text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: "#C9A84C" }}>
+                        <div className="font-body text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: "#2E9FD8" }}>
                           {item.label}
                         </div>
                         {item.href ? (
                           <a
                             href={item.href}
                             className="font-body text-sm transition-colors hover:text-forest"
-                            style={{ color: "#2C2C2C" }}
+                            style={{ color: "#1A2332" }}
                           >
                             {item.value}
                           </a>
                         ) : (
-                          <p className="font-body text-sm whitespace-pre-line" style={{ color: "#2C2C2C" }}>
+                          <p className="font-body text-sm whitespace-pre-line" style={{ color: "#1A2332" }}>
                             {item.value}
                           </p>
                         )}
@@ -155,9 +155,9 @@ export default function Contact() {
 
               <div
                 className="rounded-xl p-6"
-                style={{ backgroundColor: "#1B4332" }}
+                style={{ backgroundColor: "#0F5A8F" }}
               >
-                <div className="font-accent text-lg mb-2" style={{ color: "#C9A84C" }}>
+                <div className="font-accent text-lg mb-2" style={{ color: "#2E9FD8" }}>
                   Free Consultation
                 </div>
                 <p className="font-body text-sm leading-relaxed" style={{ color: "rgba(253,246,236,0.85)" }}>
@@ -171,13 +171,13 @@ export default function Contact() {
               {submitted ? (
                 <div
                   className="rounded-xl p-12 text-center"
-                  style={{ backgroundColor: "#F5ECD8", border: "1px solid rgba(27,67,50,0.1)" }}
+                  style={{ backgroundColor: "#E8F2FB", border: "1px solid rgba(27,67,50,0.1)" }}
                 >
-                  <CheckCircle2 size={56} className="mx-auto mb-6" style={{ color: "#2D6A4F" }} />
-                  <h3 className="font-display text-3xl font-semibold mb-3" style={{ color: "#1B4332" }}>
+                  <CheckCircle2 size={56} className="mx-auto mb-6" style={{ color: "#1B7AB8" }} />
+                  <h3 className="font-display text-3xl font-semibold mb-3" style={{ color: "#0F5A8F" }}>
                     Thank You!
                   </h3>
-                  <p className="font-body text-base" style={{ color: "#2C2C2C" }}>
+                  <p className="font-body text-base" style={{ color: "#1A2332" }}>
                     We've received your enquiry and will be in touch within 24 hours to arrange your free consultation.
                   </p>
                 </div>
@@ -185,15 +185,15 @@ export default function Contact() {
                 <form
                   onSubmit={handleSubmit}
                   className="rounded-xl p-8 space-y-6"
-                  style={{ backgroundColor: "#F5ECD8", border: "1px solid rgba(27,67,50,0.08)" }}
+                  style={{ backgroundColor: "#E8F2FB", border: "1px solid rgba(27,67,50,0.08)" }}
                 >
-                  <h2 className="font-display text-2xl font-semibold" style={{ color: "#1B4332" }}>
+                  <h2 className="font-display text-2xl font-semibold" style={{ color: "#0F5A8F" }}>
                     Enquiry Form
                   </h2>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
-                      <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#1B4332" }}>
+                      <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#0F5A8F" }}>
                         Parent / Guardian Name *
                       </label>
                       <input
@@ -204,15 +204,15 @@ export default function Contact() {
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-lg font-body text-sm outline-none transition-all"
                         style={{
-                          backgroundColor: "#FDF6EC",
+                          backgroundColor: "#F8FBFF",
                           border: "1.5px solid rgba(27,67,50,0.2)",
-                          color: "#2C2C2C",
+                          color: "#1A2332",
                         }}
                         placeholder="Your name"
                       />
                     </div>
                     <div>
-                      <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#1B4332" }}>
+                      <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#0F5A8F" }}>
                         Email Address *
                       </label>
                       <input
@@ -223,9 +223,9 @@ export default function Contact() {
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-lg font-body text-sm outline-none transition-all"
                         style={{
-                          backgroundColor: "#FDF6EC",
+                          backgroundColor: "#F8FBFF",
                           border: "1.5px solid rgba(27,67,50,0.2)",
-                          color: "#2C2C2C",
+                          color: "#1A2332",
                         }}
                         placeholder="your@email.com"
                       />
@@ -234,7 +234,7 @@ export default function Contact() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
-                      <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#1B4332" }}>
+                      <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#0F5A8F" }}>
                         Phone / WhatsApp
                       </label>
                       <input
@@ -244,15 +244,15 @@ export default function Contact() {
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-lg font-body text-sm outline-none transition-all"
                         style={{
-                          backgroundColor: "#FDF6EC",
+                          backgroundColor: "#F8FBFF",
                           border: "1.5px solid rgba(27,67,50,0.2)",
-                          color: "#2C2C2C",
+                          color: "#1A2332",
                         }}
                         placeholder="+852 xxxx xxxx"
                       />
                     </div>
                     <div>
-                      <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#1B4332" }}>
+                      <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#0F5A8F" }}>
                         Student's Age / Year Group *
                       </label>
                       <select
@@ -262,9 +262,9 @@ export default function Contact() {
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-lg font-body text-sm outline-none transition-all"
                         style={{
-                          backgroundColor: "#FDF6EC",
+                          backgroundColor: "#F8FBFF",
                           border: "1.5px solid rgba(27,67,50,0.2)",
-                          color: formData.studentAge ? "#2C2C2C" : "#888",
+                          color: formData.studentAge ? "#1A2332" : "#888",
                         }}
                       >
                         <option value="" disabled>Select year group</option>
@@ -277,7 +277,7 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#1B4332" }}>
+                    <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#0F5A8F" }}>
                       Programme of Interest
                     </label>
                     <select
@@ -286,9 +286,9 @@ export default function Contact() {
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-lg font-body text-sm outline-none transition-all"
                       style={{
-                        backgroundColor: "#FDF6EC",
+                        backgroundColor: "#F8FBFF",
                         border: "1.5px solid rgba(27,67,50,0.2)",
-                        color: formData.programme ? "#2C2C2C" : "#888",
+                        color: formData.programme ? "#1A2332" : "#888",
                       }}
                     >
                       <option value="">Not sure yet / Please advise</option>
@@ -302,7 +302,7 @@ export default function Contact() {
                   </div>
 
                   <div>
-                    <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#1B4332" }}>
+                    <label className="block font-body text-sm font-semibold mb-1.5" style={{ color: "#0F5A8F" }}>
                       Tell Us About Your Child
                     </label>
                     <textarea
@@ -312,9 +312,9 @@ export default function Contact() {
                       rows={4}
                       className="w-full px-4 py-3 rounded-lg font-body text-sm outline-none transition-all resize-none"
                       style={{
-                        backgroundColor: "#FDF6EC",
+                        backgroundColor: "#F8FBFF",
                         border: "1.5px solid rgba(27,67,50,0.2)",
-                        color: "#2C2C2C",
+                        color: "#1A2332",
                       }}
                       placeholder="Any background on your child's current level, goals, interests, or specific challenges you'd like to address..."
                     />
@@ -323,7 +323,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     className="w-full py-4 rounded-lg font-body font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-                    style={{ backgroundColor: "#1B4332", color: "#FDF6EC" }}
+                    style={{ backgroundColor: "#0F5A8F", color: "#F8FBFF" }}
                   >
                     Send Enquiry & Request Free Consultation
                   </button>
@@ -339,13 +339,13 @@ export default function Contact() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20" style={{ backgroundColor: "#F5ECD8" }}>
+      <section className="py-20" style={{ backgroundColor: "#E8F2FB" }}>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <div className="font-accent text-xl mb-3" style={{ color: "#C9A84C" }}>
+            <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
               Common Questions
             </div>
-            <h2 className="font-display text-4xl font-semibold" style={{ color: "#1B4332" }}>
+            <h2 className="font-display text-4xl font-semibold" style={{ color: "#0F5A8F" }}>
               Frequently Asked Questions
             </h2>
           </div>
@@ -355,20 +355,20 @@ export default function Contact() {
               <div
                 key={i}
                 className="rounded-xl overflow-hidden"
-                style={{ backgroundColor: "#FDF6EC", border: "1px solid rgba(27,67,50,0.1)" }}
+                style={{ backgroundColor: "#F8FBFF", border: "1px solid rgba(27,67,50,0.1)" }}
               >
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full px-6 py-5 text-left flex items-center justify-between gap-4"
                 >
-                  <span className="font-body font-semibold text-sm" style={{ color: "#1B4332" }}>
+                  <span className="font-body font-semibold text-sm" style={{ color: "#0F5A8F" }}>
                     {faq.q}
                   </span>
                   <span
                     className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center transition-transform duration-200"
                     style={{
-                      backgroundColor: openFaq === i ? "#1B4332" : "rgba(27,67,50,0.1)",
-                      color: openFaq === i ? "#FDF6EC" : "#1B4332",
+                      backgroundColor: openFaq === i ? "#0F5A8F" : "rgba(27,67,50,0.1)",
+                      color: openFaq === i ? "#F8FBFF" : "#0F5A8F",
                       transform: openFaq === i ? "rotate(45deg)" : "rotate(0deg)",
                     }}
                   >

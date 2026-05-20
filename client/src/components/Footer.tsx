@@ -6,16 +6,16 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#0F2D1E", color: "#FDF6EC" }}>
+    <footer style={{ backgroundColor: "#0A3A5C", color: "#F8FBFF" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <div className="font-display text-2xl font-semibold" style={{ color: "#FDF6EC" }}>
+              <div className="font-display text-2xl font-semibold" style={{ color: "#F8FBFF" }}>
                 Us English
               </div>
-              <div className="font-accent text-sm" style={{ color: "#C9A84C" }}>
+              <div className="font-accent text-sm" style={{ color: "#2E9FD8" }}>
                 Hong Kong
               </div>
             </div>
@@ -26,7 +26,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <h4 className="font-display text-lg font-semibold mb-4" style={{ color: "#C9A84C" }}>
+            <h4 className="font-display text-lg font-semibold mb-4" style={{ color: "#2E9FD8" }}>
               Navigate
             </h4>
             <ul className="space-y-2">
@@ -51,12 +51,12 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-display text-lg font-semibold mb-4" style={{ color: "#C9A84C" }}>
+            <h4 className="font-display text-lg font-semibold mb-4" style={{ color: "#2E9FD8" }}>
               Get in Touch
             </h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <Mail size={16} className="mt-0.5 shrink-0" style={{ color: "#C9A84C" }} />
+                <Mail size={16} className="mt-0.5 shrink-0" style={{ color: "#2E9FD8" }} />
                 <a
                   href="mailto:hello@voiceacademyhk.com"
                   className="font-body text-sm transition-colors hover:text-gold"
@@ -66,7 +66,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <Phone size={16} className="mt-0.5 shrink-0" style={{ color: "#C9A84C" }} />
+                <Phone size={16} className="mt-0.5 shrink-0" style={{ color: "#2E9FD8" }} />
                 <a
                   href="tel:+85298765432"
                   className="font-body text-sm transition-colors hover:text-gold"
@@ -76,7 +76,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin size={16} className="mt-0.5 shrink-0" style={{ color: "#C9A84C" }} />
+                <MapPin size={16} className="mt-0.5 shrink-0" style={{ color: "#2E9FD8" }} />
                 <span className="font-body text-sm" style={{ color: "rgba(253,246,236,0.75)" }}>
                   Hong Kong Island &amp; Kowloon
                 </span>

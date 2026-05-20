@@ -40,13 +40,13 @@ export default function Navbar() {
           <Link href="/" className="flex flex-col leading-none group">
             <span
               className="font-display text-xl md:text-2xl font-semibold tracking-wide"
-              style={{ color: "#1B4332" }}
+              style={{ color: "#0F5A8F" }}
             >
               Us English
             </span>
             <span
               className="font-accent text-sm tracking-widest"
-              style={{ color: "#C9A84C" }}
+              style={{ color: "#2E9FD8" }}
             >
               Hong Kong
             </span>
@@ -64,7 +64,7 @@ export default function Navbar() {
                     : "text-charcoal hover:text-forest"
                 }`}
                 style={{
-                  color: location === link.href ? "#1B4332" : "#2C2C2C",
+                  color: location === link.href ? "#0F5A8F" : "#1A2332",
                 }}
               >
                 {link.label}
@@ -72,7 +72,7 @@ export default function Navbar() {
                   className={`absolute -bottom-1 left-0 h-0.5 bg-gold transition-all duration-200 ${
                     location === link.href ? "w-full" : "w-0 group-hover:w-full"
                   }`}
-                  style={{ backgroundColor: "#C9A84C" }}
+                  style={{ backgroundColor: "#2E9FD8" }}
                 />
               </Link>
             ))}
@@ -80,8 +80,8 @@ export default function Navbar() {
               href="/contact"
               className="ml-2 px-5 py-2.5 rounded text-sm font-semibold font-body transition-all duration-200 hover:shadow-md active:scale-95"
               style={{
-                backgroundColor: "#1B4332",
-                color: "#FDF6EC",
+                backgroundColor: "#0F5A8F",
+                color: "#F8FBFF",
               }}
             >
               Enquire Now
@@ -93,7 +93,7 @@ export default function Navbar() {
             className="md:hidden p-2 rounded"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
-            style={{ color: "#1B4332" }}
+            style={{ color: "#0F5A8F" }}
           >
             {menuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -105,7 +105,7 @@ export default function Navbar() {
         className={`md:hidden overflow-hidden transition-all duration-300 ${
           menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
-        style={{ backgroundColor: "#FDF6EC" }}
+        style={{ backgroundColor: "#F8FBFF" }}
       >
         <nav className="px-4 py-4 flex flex-col gap-1 border-t" style={{ borderColor: "rgba(201,168,76,0.3)" }}>
           {navLinks.map((link) => (
@@ -116,7 +116,7 @@ export default function Navbar() {
                 location === link.href ? "font-semibold" : ""
               }`}
               style={{
-                color: location === link.href ? "#1B4332" : "#2C2C2C",
+                color: location === link.href ? "#0F5A8F" : "#1A2332",
                 backgroundColor: location === link.href ? "rgba(27,67,50,0.06)" : "transparent",
               }}
             >
@@ -126,7 +126,7 @@ export default function Navbar() {
           <Link
             href="/contact"
             className="mt-2 px-4 py-3 rounded text-sm font-semibold font-body text-center"
-            style={{ backgroundColor: "#1B4332", color: "#FDF6EC" }}
+            style={{ backgroundColor: "#0F5A8F", color: "#F8FBFF" }}
           >
             Enquire Now
           </Link>

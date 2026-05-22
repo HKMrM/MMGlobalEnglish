@@ -37,13 +37,13 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-auto md:h-auto py-3 md:py-4">
           {/* Wordmark */}
           <Link href="/" className="flex items-center leading-tight group">
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mm-global-english-logo-final-krJ47teFsBoEAfjHwFr6a2.webp"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mm-global-english-logo-large-2z6LMhia9M8ZUs84Mf92RB.webp"
               alt="MM Global English"
-              className="h-16 md:h-20 w-auto"
+              className="h-24 md:h-32 w-auto"
             />
           </Link>
 

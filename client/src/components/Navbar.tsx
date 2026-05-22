@@ -41,7 +41,7 @@ export default function Navbar() {
           {/* Wordmark */}
           <Link href="/" className="flex items-center leading-tight group">
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mm-global-english-logo-large-2z6LMhia9M8ZUs84Mf92RB.webp"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mm-global-english-logo-interconnected-PfLCCLmv7JXoRsiV5Z3s5T.webp"
               alt="MM Global English"
               className="h-24 md:h-32 w-auto"
             />

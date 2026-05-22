@@ -39,19 +39,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Wordmark */}
-          <Link href="/" className="flex flex-col leading-tight group">
-            <span
-              className="font-display text-2xl md:text-3xl font-bold tracking-wide"
-              style={{ color: "#0F5A8F" }}
-            >
-              Us English
-            </span>
-            <span
-              className="font-accent text-xs tracking-widest mt-0.5"
-              style={{ color: "#2E9FD8" }}
-            >
-              English Communication Coaching
-            </span>
+          <Link href="/" className="flex items-center leading-tight group">
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mm-global-english-logo-final-krJ47teFsBoEAfjHwFr6a2.webp"
+              alt="MM Global English"
+              className="h-16 md:h-20 w-auto"
+            />
           </Link>
 
           {/* Desktop nav */}

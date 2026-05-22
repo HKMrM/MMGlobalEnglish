@@ -73,7 +73,7 @@ export default function About() {
         />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
-            About Us English with Mr. Michael
+            About MM Global English with Mr. Michael
           </div>
           <h1 className="font-display text-5xl lg:text-6xl font-semibold mb-4 leading-tight" style={{ color: "#F8FBFF" }}>
             Why We Do This Work
@@ -102,7 +102,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 font-body text-base leading-relaxed" style={{ color: "#1A2332" }}>
                 <p>
-                  Us English was founded in Hong Kong with a simple but powerful conviction: that every young person has ideas worth sharing — and that the skills to share them well can be taught, nurtured, and developed at any age.
+                  MM Global English was founded in Hong Kong with a simple but powerful conviction: that every young person has ideas worth sharing — and that the skills to share them well can be taught, nurtured, and developed at any age.
                 </p>
                 <p>
                   We work with students from lower primary through to upper secondary, meeting them at their level and walking with them through each stage of their development. For the youngest students, that might mean helping them write their first story or stand up and speak in front of a small group without fear. For older students, it might mean preparing for a Model United Nations conference or the World Scholar's Cup.

@@ -142,7 +142,7 @@ export default function AboutMichael() {
                 src={MICHAEL_PHOTO}
                 alt="Mr. Michael"
                 className="relative rounded-lg shadow-xl w-full object-cover"
-                style={{ maxHeight: "500px" }}
+                style={{ maxHeight: "600px", aspectRatio: "3/4", objectPosition: "center top" }}
               />
             </div>
           </div>

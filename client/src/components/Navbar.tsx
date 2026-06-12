@@ -6,6 +6,10 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/programs", label: "Programmes" },
@@ -53,21 +57,22 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`font-body text-sm font-600 tracking-wide transition-colors duration-200 relative group whitespace-nowrap ${
+                onClick={() => scrollToTop()}
+                className={`font-body text-sm font-700 tracking-wide transition-colors duration-200 relative group whitespace-nowrap ${
                   location === link.href
-                    ? "text-forest font-semibold"
-                    : "text-charcoal hover:text-forest"
+                    ? "font-bold"
+                    : "hover:font-bold"
                 }`}
                 style={{
-                  color: location === link.href ? "#0F5A8F" : "#1A2332",
+                  color: location === link.href ? "#0F5A8F" : "#0F5A8F",
                 }}
               >
                 {link.label}
                 <span
-                  className={`absolute -bottom-2 left-0 h-1 bg-gold transition-all duration-200 ${
+                  className={`absolute -bottom-2 left-0 h-1.5 bg-gold transition-all duration-200 ${
                     location === link.href ? "w-full" : "w-0 group-hover:w-full"
                   }`}
-                  style={{ backgroundColor: "#2E9FD8" }}
+                  style={{ backgroundColor: "#0F5A8F" }}
                 />
               </Link>
             ))}
@@ -107,12 +112,13 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className={`px-3 py-3 rounded font-body text-sm font-medium transition-colors duration-150 ${
-                location === link.href ? "font-semibold" : ""
+              onClick={() => scrollToTop()}
+              className={`px-3 py-3 rounded font-body text-sm font-bold transition-colors duration-150 ${
+                location === link.href ? "font-bold" : ""
               }`}
               style={{
-                color: location === link.href ? "#0F5A8F" : "#1A2332",
-                backgroundColor: location === link.href ? "rgba(27,67,50,0.06)" : "transparent",
+                color: "#0F5A8F",
+                backgroundColor: location === link.href ? "rgba(15,90,143,0.1)" : "transparent",
               }}
             >
               {link.label}

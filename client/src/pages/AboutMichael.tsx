@@ -26,6 +26,7 @@ function useInView(threshold = 0.15) {
 }
 
 const MICHAEL_PHOTO = "/manus-storage/michael-professional-photo_c3123d9a.webp";
+const MICHAEL_HEADSHOT = "/manus-storage/michael-headshot_e2045cfa.webp";
 
 const achievements = [
   {
@@ -105,6 +106,15 @@ export default function AboutMichael() {
           ref={bioSection.ref}
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
+          <div className="flex justify-center mb-12">
+            <img
+              src={MICHAEL_HEADSHOT}
+              alt="Mr. Michael"
+              className="rounded-lg shadow-lg"
+              style={{ maxWidth: "280px", height: "auto" }}
+            />
+          </div>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div
               className={`transition-all duration-700 ${bioSection.inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}

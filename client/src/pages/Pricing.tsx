@@ -48,7 +48,7 @@ export default function Pricing() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-blue-100">
+      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-blue-100 mt-28">
         <div className="max-w-4xl mx-auto text-center">
           <h1
             className="font-display text-4xl md:text-5xl font-bold mb-4"

@@ -37,13 +37,13 @@ export default function Navbar() {
       }`}
     >
       <div className="w-full">
-        <div className="flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#F8FBFF", borderBottom: "1px solid rgba(15,90,143,0.1)" }}>
+        <div className="flex items-center justify-between h-28 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#F8FBFF", borderBottom: "1px solid rgba(15,90,143,0.1)" }}>
           {/* Wordmark - Square Badge Logo */}
           <Link href="/" className="flex items-center leading-tight group hover:opacity-80 transition-opacity flex-shrink-0">
             <img
               src="/manus-storage/mm-logo-option4-square-badge_19e138dd.png"
               alt="MM Global English"
-              className="h-16 w-auto drop-shadow-lg"
+              className="h-24 w-auto drop-shadow-lg"
             />
           </Link>
 

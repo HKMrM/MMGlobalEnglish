@@ -62,7 +62,7 @@ export default function About() {
 
       {/* Page Hero */}
       <section
-        className="pt-32 pb-16 relative overflow-hidden mt-20"
+        className="pt-32 pb-16 relative overflow-hidden mt-28"
         style={{ backgroundColor: "#0F5A8F" }}
       >
         <div

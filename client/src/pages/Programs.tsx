@@ -220,9 +220,7 @@ export default function Programs() {
           }}
         />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
-            MM Global English Programmes with Mr. Michael
-          </div>
+
           <h1 className="font-display text-5xl lg:text-6xl font-semibold mb-4 leading-tight" style={{ color: "#F8FBFF" }}>
             Tailored to Every Stage
           </h1>

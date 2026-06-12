@@ -25,7 +25,7 @@ function useInView(threshold = 0.15) {
   return { ref, inView };
 }
 
-const COACHING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/tutor-teaching-one-on-one-5pVwLzJ5TfSXwiof82W5KR.webp";
+const MICHAEL_PHOTO = "/manus-storage/michael-professional-photo_c3123d9a.webp";
 
 const achievements = [
   {
@@ -99,7 +99,7 @@ export default function AboutMichael() {
         </div>
       </section>
 
-      {/* Bio Section */}
+      {/* Bio Section with Professional Photo */}
       <section className="py-24" style={{ backgroundColor: "#F8FBFF" }}>
         <div
           ref={bioSection.ref}
@@ -139,8 +139,8 @@ export default function AboutMichael() {
                 style={{ backgroundColor: "rgba(46,159,216,0.15)" }}
               />
               <img
-                src={COACHING_IMG}
-                alt="Mr. Michael coaching"
+                src={MICHAEL_PHOTO}
+                alt="Mr. Michael"
                 className="relative rounded-lg shadow-xl w-full object-cover"
                 style={{ maxHeight: "500px" }}
               />
@@ -211,20 +211,20 @@ export default function AboutMichael() {
           <div className="space-y-8">
             {[
               {
-                heading: "Communication is a Skill, Not a Talent",
-                text: "Some people are naturally talkative, but that's not the same as being a good communicator. I teach students that clarity, empathy, and structure can be learned and mastered — at any age.",
+                heading: "Help Students Find Their Voice",
+                text: "My core belief is simple: every student has something important to say. Whether expressing creative ideas in stories, critical analysis in debates, or arguments in presentations, I help students find the confidence to share their voice clearly and comfortably. Communication is not about being loud — it's about being heard.",
               },
               {
-                heading: "Debate Teaches More Than Winning Arguments",
-                text: "When students learn to debate, they learn to research deeply, think critically, listen genuinely to opposing views, and articulate complex ideas under pressure. These skills transfer to every part of their lives.",
+                heading: "Global Exposure, Critical Thinking",
+                text: "I want my students to have global exposure and curiosity about the world. But more importantly, I want them to navigate the overwhelming amount of media and information they encounter daily with discernment. I teach students to seek truth and understanding, to think independently, and to limit their reliance on AI in completing meaningful work. I want literate students — not just able to read, but able to read the world.",
               },
               {
-                heading: "Confidence Comes From Competence",
-                text: "I don't believe in fake confidence. Real confidence comes from knowing you've prepared well, understanding your material, and having practiced in a safe environment. That's what I provide.",
+                heading: "Transformation Through Proper Tutelage",
+                text: "The most rewarding part of my work is seeing students grow and flourish under proper guidance. Watching shy students step out of their comfort zones, watching non-native English speakers gain confidence to give speeches in front of crowds, and knowing I've helped shape positively-contributing members of society who can think independently — that's everything.",
               },
               {
-                heading: "Every Student Has a Unique Voice",
-                text: "My job isn't to make all students sound the same. It's to help each student find their authentic voice — their unique way of expressing ideas with clarity and conviction.",
+                heading: "Real Success Stories",
+                text: "I've had the privilege of coaching international students who gained global worldviews through debate, MUN, and World Scholar's Cup — earning well-deserved accolades at competitions like NHSMUN and WSC Tournament of Champions. I've also worked with local, non-native English speakers who truly came out of their shell, becoming winners in intra-school and inter-school speaking and debate competitions. These transformations are why I do this work.",
               },
             ].map((item, idx) => (
               <div
@@ -248,6 +248,29 @@ export default function AboutMichael() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Personal Interests Section */}
+      <section className="py-24" style={{ backgroundColor: "#E8F2FB" }}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
+              Beyond the Classroom
+            </div>
+            <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-8" style={{ color: "#0F5A8F" }}>
+              A Life Well-Lived
+            </h2>
+          </div>
+
+          <div className="prose prose-lg max-w-none font-body" style={{ color: "#1A2332" }}>
+            <p className="text-base leading-relaxed mb-6">
+              I believe that the best teachers are well-rounded people who engage with the world beyond their subject matter. I'm passionate about sports — I play softball and coach in the Hong Kong Slow Pitch Softball Association. I'm an avid hiker who loves exploring Hong Kong's natural beauty. I sing and have performed with choirs and operas, which taught me the power of ensemble work and collaborative expression.
+            </p>
+            <p className="text-base leading-relaxed">
+              I love to travel and experience cultures rich in history, and I'm a passionate cook who enjoys trying new dishes and cuisines. These experiences — whether on a hiking trail, in a concert hall, or around a dinner table — all inform how I teach. They remind me that communication and connection happen everywhere, and that the skills my students learn in debate and public speaking are tools for living a fuller, more engaged life.
+            </p>
           </div>
         </div>
       </section>

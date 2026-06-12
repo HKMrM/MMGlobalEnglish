@@ -37,13 +37,13 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-auto md:h-auto py-3 md:py-4">
-          {/* Wordmark */}
-          <Link href="/" className="flex items-center leading-tight group">
+        <div className="flex items-center justify-between h-auto md:h-auto py-2 md:py-3">
+          {/* Wordmark - Square Badge Logo */}
+          <Link href="/" className="flex items-center leading-tight group hover:opacity-80 transition-opacity">
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mm-global-english-logo-interconnected-PfLCCLmv7JXoRsiV5Z3s5T.webp"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mm-logo-option4-square-badge-4QzTmDCoyZBGzSx7UTzcsn.webp"
               alt="MM Global English"
-              className="h-24 md:h-32 w-auto"
+              className="h-32 md:h-40 w-auto drop-shadow-lg"
             />
           </Link>
 

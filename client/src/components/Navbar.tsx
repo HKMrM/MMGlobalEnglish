@@ -9,9 +9,9 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/programs", label: "Programmes" },
-  { href: "/pricing", label: "Pricing" },
   { href: "/about", label: "About" },
   { href: "/about-michael", label: "Mr. Michael" },
+  { href: "/pricing", label: "Pricing" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -36,24 +36,24 @@ export default function Navbar() {
         scrolled ? "nav-glass shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-auto md:h-auto py-2 md:py-3">
+      <div className="w-full">
+        <div className="flex items-center justify-between h-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#F8FBFF", borderBottom: "1px solid rgba(15,90,143,0.1)" }}>
           {/* Wordmark - Square Badge Logo */}
-          <Link href="/" className="flex items-center leading-tight group hover:opacity-80 transition-opacity">
+          <Link href="/" className="flex items-center leading-tight group hover:opacity-80 transition-opacity flex-shrink-0">
             <img
               src="/manus-storage/mm-logo-option4-square-badge_19e138dd.png"
               alt="MM Global English"
-              className="h-32 md:h-40 w-auto drop-shadow-lg"
+              className="h-16 w-auto drop-shadow-lg"
             />
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-6 ml-8 flex-1">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`font-body text-sm font-600 tracking-wide transition-colors duration-200 relative group ${
+                className={`font-body text-sm font-600 tracking-wide transition-colors duration-200 relative group whitespace-nowrap ${
                   location === link.href
                     ? "text-forest font-semibold"
                     : "text-charcoal hover:text-forest"
@@ -64,7 +64,7 @@ export default function Navbar() {
               >
                 {link.label}
                 <span
-                  className={`absolute -bottom-1 left-0 h-0.5 bg-gold transition-all duration-200 ${
+                  className={`absolute -bottom-2 left-0 h-1 bg-gold transition-all duration-200 ${
                     location === link.href ? "w-full" : "w-0 group-hover:w-full"
                   }`}
                   style={{ backgroundColor: "#2E9FD8" }}
@@ -73,7 +73,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/contact"
-              className="ml-2 px-5 py-2.5 rounded text-sm font-semibold font-body transition-all duration-200 hover:shadow-md active:scale-95"
+              className="ml-6 px-5 py-2.5 rounded text-sm font-semibold font-body transition-all duration-200 hover:shadow-md active:scale-95 flex-shrink-0"
               style={{
                 backgroundColor: "#0F5A8F",
                 color: "#F8FBFF",

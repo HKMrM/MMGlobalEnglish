@@ -115,45 +115,28 @@ export default function AboutMichael() {
             />
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div
-              className={`transition-all duration-700 ${bioSection.inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
-            >
-              <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
-                Background
-              </div>
-              <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-6 leading-tight" style={{ color: "#0F5A8F" }}>
-                From New York to Hong Kong
-              </h2>
-              <div className="space-y-4 font-body text-base leading-relaxed" style={{ color: "#1A2332" }}>
-                <p>
-                  Born and raised in New York, I graduated from Lehigh University with a focus on Political Science, Religion, and Musical Performance. These disciplines shaped how I approach communication coaching — understanding that great speakers must be informed, empathetic, and expressive.
-                </p>
-                <p>
-                  For the past 15 years, I've been based in Hong Kong, working with students ages 2–18 across international and local schools. I've brought that same passion for debate, public speaking, and critical thinking to a new generation of Hong Kong students — many of whom have gone on to compete at the highest levels.
-                </p>
-                <p>
-                  In Hong Kong, I have chaperoned and coached award-winning debate teams competing in the US National Debate Championships and for NHSMUN, the largest secondary school Model United Nations conference in the world. I also coached World Scholar's Cup teams to the World Scholar's Cup Championship at Yale University.
-                </p>
-                <p>
-                  Beyond the classroom, I'm a singer with the Hong Kong Bach Choir and Commissioner of the Hong Kong Slow Pitch Softball Association — because I believe that communication and community engagement happen everywhere, not just in formal settings.
-                </p>
-              </div>
+          <div
+            className={`transition-all duration-700 ${bioSection.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+          >
+            <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
+              Background
             </div>
-
-            <div
-              className={`relative transition-all duration-700 delay-200 ${bioSection.inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-8"}`}
-            >
-              <div
-                className="absolute -top-4 -right-4 w-full h-full rounded-lg"
-                style={{ backgroundColor: "rgba(46,159,216,0.15)" }}
-              />
-              <img
-                src={MICHAEL_PHOTO}
-                alt="Mr. Michael"
-                className="relative rounded-lg shadow-xl w-full object-cover"
-                style={{ maxHeight: "600px", aspectRatio: "3/4", objectPosition: "center top" }}
-              />
+            <h2 className="font-display text-4xl lg:text-5xl font-semibold mb-6 leading-tight" style={{ color: "#0F5A8F" }}>
+              From New York to Hong Kong
+            </h2>
+            <div className="space-y-4 font-body text-base leading-relaxed" style={{ color: "#1A2332" }}>
+              <p>
+                Born and raised in New York, I graduated from Lehigh University with a focus on Political Science, Religion, and Musical Performance. These disciplines shaped how I approach communication coaching — understanding that great speakers must be informed, empathetic, and expressive.
+              </p>
+              <p>
+                For the past 15 years, I've been based in Hong Kong, working with students ages 2–18 across international and local schools. I've brought that same passion for debate, public speaking, and critical thinking to a new generation of Hong Kong students — many of whom have gone on to compete at the highest levels.
+              </p>
+              <p>
+                In Hong Kong, I have chaperoned and coached award-winning debate teams competing in the US National Debate Championships and for NHSMUN, the largest secondary school Model United Nations conference in the world. I also coached World Scholar's Cup teams to the World Scholar's Cup Championship at Yale University.
+              </p>
+              <p>
+                Beyond the classroom, I'm a singer with the Hong Kong Bach Choir and Commissioner of the Hong Kong Slow Pitch Softball Association — because I believe that communication and community engagement happen everywhere, not just in formal settings.
+              </p>
             </div>
           </div>
         </div>

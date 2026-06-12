@@ -50,7 +50,6 @@ const ageGroups = [
           "Listening and responding to peers",
         ],
         format: "Small group (3–5 students) or 1-on-1",
-        frequency: "Weekly 60-minute sessions",
       },
       {
         title: "My First Speech",
@@ -63,7 +62,6 @@ const ageGroups = [
           "Overcoming nervousness through practice",
         ],
         format: "Small group (3–5 students)",
-        frequency: "Weekly 60-minute sessions",
       },
     ],
   },
@@ -87,7 +85,6 @@ const ageGroups = [
           "Discussing topics from school life to current events",
         ],
         format: "Small group (4–6 students) or 1-on-1",
-        frequency: "Weekly 75-minute sessions",
       },
       {
         title: "Debate Foundations",
@@ -100,7 +97,6 @@ const ageGroups = [
           "Topics: school life, health, technology, environment",
         ],
         format: "Small group (4–6 students)",
-        frequency: "Weekly 75-minute sessions",
       },
     ],
   },
@@ -124,7 +120,6 @@ const ageGroups = [
           "Topics: politics, environment, science, social issues",
         ],
         format: "Small group (4–6 students) or 1-on-1",
-        frequency: "Weekly 90-minute sessions",
       },
       {
         title: "MUN Preparation",
@@ -137,7 +132,6 @@ const ageGroups = [
           "Global issues: climate, security, human rights",
         ],
         format: "Small group (4–6 students)",
-        frequency: "Weekly 90-minute sessions + conference preparation intensives",
       },
     ],
   },
@@ -161,7 +155,6 @@ const ageGroups = [
           "Global and interdisciplinary thinking",
         ],
         format: "Small group (3–5 students)",
-        frequency: "Twice-weekly 90-minute sessions during preparation season",
       },
       {
         title: "University Preparation: Communication Skills",
@@ -174,7 +167,6 @@ const ageGroups = [
           "Professional communication foundations",
         ],
         format: "1-on-1 intensive coaching",
-        frequency: "Flexible scheduling based on application timeline",
       },
     ],
   },
@@ -189,19 +181,19 @@ const competitions = [
   },
   {
     name: "World Scholar's Cup",
-    level: "S1 – S5",
+    level: "P5 – S6",
     desc: "A global academic competition combining collaborative debate, team challenge, and scholar's bowl across multiple subject areas. One of the most prestigious student competitions in the world.",
     icon: "🏆",
   },
   {
     name: "Public Speaking Competitions",
-    level: "P4 – S6",
+    level: "P1 – S6",
     desc: "From school-level competitions to inter-school and open competitions. We prepare students for both prepared speeches and impromptu speaking challenges.",
     icon: "🎤",
   },
   {
     name: "Debate Tournaments",
-    level: "P5 – S6",
+    level: "P3 – S6",
     desc: "British Parliamentary, Asian Parliamentary, and other formats. We prepare students for inter-school and open tournaments at all levels of competition.",
     icon: "⚖️",
   },
@@ -340,14 +332,7 @@ export default function Programs() {
                         {prog.format}
                       </div>
                     </div>
-                    <div>
-                      <div className="font-body text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: "#2E9FD8" }}>
-                        Frequency
-                      </div>
-                      <div className="font-body text-sm" style={{ color: "#1A2332" }}>
-                        {prog.frequency}
-                      </div>
-                    </div>
+
                   </div>
                 </div>
               </div>

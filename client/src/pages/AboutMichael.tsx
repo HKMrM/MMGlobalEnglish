@@ -25,7 +25,7 @@ function useInView(threshold = 0.15) {
   return { ref, inView };
 }
 
-const MICHAEL_UN_PHOTO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/MrMichaelattheUN_a008b314.jpeg";
+const MICHAEL_UN_PHOTO = "/manus-storage/MrMichaelattheUN_aa4f4f82.jpeg";
 
 const achievements = [
   {

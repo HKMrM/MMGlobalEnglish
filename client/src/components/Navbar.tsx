@@ -45,7 +45,7 @@ export default function Navbar() {
           {/* Wordmark - Square Badge Logo */}
           <Link href="/" className="flex items-center leading-tight group hover:opacity-80 transition-opacity flex-shrink-0">
             <img
-              src="/manus-storage/mm-logo-option4-square-badge_19e138dd.png"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mm-logo-option4-square-badge_19e138dd.png"
               alt="MM Global English"
               className="h-24 w-auto drop-shadow-lg object-contain"
               style={{ maxHeight: '96px' }}

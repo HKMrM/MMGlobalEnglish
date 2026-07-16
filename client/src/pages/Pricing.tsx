@@ -26,16 +26,17 @@ export default function Pricing() {
       highlight: true,
     },
     {
-      title: "Chaperoning Services",
-      rate: "Custom Quote",
-      period: "pricing based on event, location, and time commitment",
-      description: "Personalized chaperoning and coaching support for competitions and events.",
+      title: "Group Sessions",
+      rate: "HKD 750",
+      period: "per hour per student",
+      description: "Small group coaching (3-5 students) with interactive learning and peer support. Generally held online, with on-site options available for pre-prepared groupings.",
       features: [
-        "Event-specific coaching",
-        "On-site mentorship",
-        "Competition preparation",
-        "Flexible arrangements",
-        "Customized support",
+        "Collaborative learning environment",
+        "Debate and discussion practice",
+        "Peer feedback and support",
+        "Cost-effective option",
+        "Dynamic group interactions",
+        "Primarily online delivery",
       ],
       color: "#1B7AB8",
       highlight: false,
@@ -55,6 +56,9 @@ export default function Pricing() {
           >
             Pricing
           </h1>
+          <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+            Chaperoning services available — pricing can be discussed based on event, location, and time commitment.
+          </p>
         </div>
       </section>
 

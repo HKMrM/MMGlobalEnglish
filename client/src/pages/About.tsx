@@ -88,9 +88,9 @@ export default function About() {
           ref={storySection.ref}
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="max-w-3xl mx-auto">
             <div
-              className={`transition-all duration-700 ${storySection.inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
+              className={`transition-all duration-700 ${storySection.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
             >
               <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
                 Our Story
@@ -109,21 +109,6 @@ export default function About() {
                   What connects every programme is a commitment to genuine communication — not just performing well on a test, but developing the real capacity to think clearly, listen deeply, and express oneself with confidence and conviction.
                 </p>
               </div>
-            </div>
-
-            <div
-              className={`relative transition-all duration-700 delay-200 ${storySection.inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-8"}`}
-            >
-              <div
-                className="absolute -top-4 -right-4 w-full h-full rounded-lg"
-                style={{ backgroundColor: "rgba(201,168,76,0.2)" }}
-              />
-              <img
-                src={COACHING_IMG}
-                alt="Coaching session"
-                className="relative rounded-lg shadow-xl w-full object-cover"
-                style={{ maxHeight: "500px" }}
-              />
             </div>
           </div>
         </div>
@@ -229,7 +214,7 @@ export default function About() {
           ref={approachSection.ref}
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="max-w-3xl mx-auto">
             <div>
               <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
                 What We Discuss
@@ -273,24 +258,6 @@ export default function About() {
                     </div>
                   </div>
                 ))}
-              </div>
-            </div>
-            <div className="relative">
-              <img
-                src={WRITING_IMG}
-                alt="Student engaged in creative writing"
-                className="rounded-xl shadow-2xl w-full object-cover"
-                style={{ maxHeight: "480px" }}
-              />
-              <div
-                className="absolute -top-5 -right-5 rounded-xl p-5 shadow-lg"
-                style={{ backgroundColor: "#2E9FD8" }}
-              >
-                <p className="font-accent text-base leading-snug" style={{ color: "#0A3A5C" }}>
-                  "Every great speech
-                  <br />
-                  begins with a great idea."
-                </p>
               </div>
             </div>
           </div>

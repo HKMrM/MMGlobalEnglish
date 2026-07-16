@@ -25,9 +25,8 @@ function useInView(threshold = 0.12) {
   return { ref, inView };
 }
 
-const DEBATE_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/debate-team-WbzVv6KPDCmF6z8mH5449e.webp";
-const WRITING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/creative-writing-aPazyb2JYqC4ZgpkuLepSQ.webp";
-const MUN_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mun-conference-a6iY6BfzySMDsKzWLYjxUd.webp";
+const SPEAKING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/student-speaking-behind-view-LamjJnCrbHjZWcVg7TMqdP.webp";
+const MUN_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/students-discussion-behind-view-7hMutvAkitzj2kbjmt3fCy.webp";
 
 const ageGroups = [
   {
@@ -415,8 +414,8 @@ export default function Programs() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
               <img
-                src={DEBATE_IMG}
-                alt="Students in debate"
+                src={SPEAKING_IMG}
+                alt="Student speaking to class"
                 className="rounded-xl shadow-2xl w-full object-cover"
                 style={{ maxHeight: "420px" }}
               />

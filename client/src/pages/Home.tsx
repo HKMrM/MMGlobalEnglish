@@ -197,37 +197,10 @@ export default function Home() {
           ref={philosophySection.ref}
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
         >
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Image */}
-            <div
-              className={`relative transition-all duration-700 ${philosophySection.inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
-            >
-              <div
-                className="absolute -top-4 -left-4 w-full h-full rounded-lg"
-                style={{ backgroundColor: "#7CB9D9", opacity: 0.35 }}
-              />
-              <img
-                src={COACHING_IMG}
-                alt="One-on-one coaching session"
-                className="relative rounded-lg shadow-xl w-full object-cover"
-                style={{ maxHeight: "480px" }}
-              />
-              <div
-                className="absolute -bottom-6 -right-6 rounded-lg p-5 shadow-lg"
-                style={{ backgroundColor: "#0F5A8F" }}
-              >
-                <p className="font-accent text-lg" style={{ color: "#2E9FD8" }}>
-                  "The ability to communicate
-                </p>
-                <p className="font-accent text-lg" style={{ color: "#2E9FD8" }}>
-                  is the superpower of our age."
-                </p>
-              </div>
-            </div>
-
+          <div className="max-w-3xl mx-auto">
             {/* Text */}
             <div
-              className={`transition-all duration-700 delay-200 ${philosophySection.inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-8"}`}
+              className={`transition-all duration-700 ${philosophySection.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
             >
               <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
                 Our Philosophy
@@ -488,62 +461,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── TESTIMONIALS ── */}
-      <section className="py-24" style={{ backgroundColor: "#F8FBFF" }}>
-        <div
-          ref={testimonialsSection.ref}
-          className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        >
-          <div className="text-center mb-16">
-            <div className="font-accent text-xl mb-3" style={{ color: "#2E9FD8" }}>
-              What Families Say
-            </div>
-            <h2 className="font-display text-4xl lg:text-5xl font-semibold" style={{ color: "#0F5A8F" }}>
-              Voices of Our Community
-            </h2>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((t, i) => (
-              <div
-                key={i}
-                className={`card-lift rounded-xl p-8 relative transition-all duration-700 ${testimonialsSection.inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
-                style={{
-                  backgroundColor: "#F8FBFF",
-                  boxShadow: "0 4px 24px rgba(27,67,50,0.1)",
-                  transitionDelay: `${i * 100}ms`,
-                }}
-              >
-                <div
-                  className="font-display text-6xl leading-none mb-4 absolute -top-2 left-6"
-                  style={{ color: "rgba(201,168,76,0.35)", fontStyle: "italic" }}
-                >
-                  "
-                </div>
-                <p className="font-body text-sm leading-relaxed mb-6 pt-4" style={{ color: "#1A2332" }}>
-                  {t.quote}
-                </p>
-                <div className="flex items-center gap-3">
-                  <div
-                    className="w-8 h-8 rounded-full flex items-center justify-center font-display font-bold text-sm"
-                    style={{ backgroundColor: "#0F5A8F", color: "#F8FBFF" }}
-                  >
-                    {t.name[0]}
-                  </div>
-                  <div>
-                    <div className="font-body text-sm font-semibold" style={{ color: "#0F5A8F" }}>
-                      {t.name}
-                    </div>
-                    <div className="font-body text-xs" style={{ color: "#2E9FD8" }}>
-                      {t.detail}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ── CTA ── */}
       <section

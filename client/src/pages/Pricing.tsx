@@ -12,7 +12,7 @@ export default function Pricing() {
   const pricingOptions = [
     {
       title: "Private Sessions",
-      rate: "HKD 1,200",
+      rate: "HKD 1,000",
       period: "per hour",
       description: "One-on-one personalized coaching tailored to your child's needs and goals.",
       features: [
@@ -26,17 +26,16 @@ export default function Pricing() {
       highlight: true,
     },
     {
-      title: "Group Sessions",
-      rate: "HKD 750",
-      period: "per hour per student",
-      description: "Small group coaching (3-5 students) with interactive learning and peer support. Generally held online, with on-site options available for pre-prepared groupings.",
+      title: "Chaperoning Services",
+      rate: "Custom Quote",
+      period: "pricing based on event, location, and time commitment",
+      description: "Personalized chaperoning and coaching support for competitions and events.",
       features: [
-        "Collaborative learning environment",
-        "Debate and discussion practice",
-        "Peer feedback and support",
-        "Cost-effective option",
-        "Dynamic group interactions",
-        "Primarily online delivery",
+        "Event-specific coaching",
+        "On-site mentorship",
+        "Competition preparation",
+        "Flexible arrangements",
+        "Customized support",
       ],
       color: "#1B7AB8",
       highlight: false,
@@ -54,12 +53,8 @@ export default function Pricing() {
             className="font-display text-4xl md:text-5xl font-bold mb-4"
             style={{ color: "#0F5A8F" }}
           >
-            Transparent Pricing
+            Pricing
           </h1>
-          <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Flexible coaching options designed to fit your family's needs and budget. All sessions
-            include personalized attention and progress tracking.
-          </p>
         </div>
       </section>
 

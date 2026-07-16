@@ -47,7 +47,8 @@ export default function Navbar() {
             <img
               src="/manus-storage/mm-logo-option4-square-badge_19e138dd.png"
               alt="MM Global English"
-              className="h-24 w-auto drop-shadow-lg"
+              className="h-24 w-auto drop-shadow-lg object-contain"
+              style={{ maxHeight: '96px' }}
             />
           </Link>
 

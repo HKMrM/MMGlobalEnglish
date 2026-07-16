@@ -17,31 +17,28 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# Forces the runner to use Node 24 globally to clear deprecation warnings
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    # Forces the runner to use Node 24 to clear the deprecation warning
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 1. Setup Node.js first so it's ready for pnpm
+      # 1. Setup Node.js first
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      # 2. Setup pnpm (Upgraded to @v4 to clear Node.js deprecation warning)
+      # 2. Setup pnpm (Removed the hardcoded "version: 9" so it auto-detects version 10 from your package.json)
       - name: Install pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9
 
-      # 3. Configure the pnpm cache now that both Node and pnpm are ready
+      # 3. Configure the pnpm cache
       - name: Get pnpm store directory
         shell: bash
         run: |

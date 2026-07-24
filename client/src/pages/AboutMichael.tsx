@@ -25,8 +25,7 @@ function useInView(threshold = 0.15) {
   return { ref, inView };
 }
 
-const MICHAEL_PHOTO = "/manus-storage/michael-professional-photo_c3123d9a.webp";
-const MICHAEL_HEADSHOT = "/manus-storage/michael-headshot_e2045cfa.webp";
+const MICHAEL_UN_PHOTO = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663678391153/sPVPANBRPOQyjhjj.jpeg";
 
 const achievements = [
   {
@@ -108,10 +107,10 @@ export default function AboutMichael() {
         >
           <div className="flex justify-center mb-12">
             <img
-              src={MICHAEL_HEADSHOT}
-              alt="Mr. Michael"
+              src={MICHAEL_UN_PHOTO}
+              alt="Mr. Michael at the UN Headquarters"
               className="rounded-lg shadow-lg"
-              style={{ maxWidth: "280px", height: "auto" }}
+              style={{ maxWidth: "400px", height: "auto" }}
             />
           </div>
 

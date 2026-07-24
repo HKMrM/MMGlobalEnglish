@@ -54,11 +54,10 @@ export default function Pricing() {
             className="font-display text-4xl md:text-5xl font-bold mb-4"
             style={{ color: "#0F5A8F" }}
           >
-            Transparent Pricing
+            Pricing
           </h1>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Flexible coaching options designed to fit your family's needs and budget. All sessions
-            include personalized attention and progress tracking.
+            Chaperoning services available — pricing can be discussed based on event, location, and time commitment.
           </p>
         </div>
       </section>

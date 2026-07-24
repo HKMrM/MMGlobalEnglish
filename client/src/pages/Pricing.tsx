@@ -12,7 +12,7 @@ export default function Pricing() {
   const pricingOptions = [
     {
       title: "Private Sessions",
-      rate: "HKD 1,200",
+      rate: "HKD 800",
       period: "per hour",
       description: "One-on-one personalized coaching tailored to your child's needs and goals.",
       features: [
@@ -27,7 +27,7 @@ export default function Pricing() {
     },
     {
       title: "Group Sessions",
-      rate: "HKD 750",
+      rate: "HKD 600",
       period: "per hour per student",
       description: "Small group coaching (3-5 students) with interactive learning and peer support. Generally held online, with on-site options available for pre-prepared groupings.",
       features: [

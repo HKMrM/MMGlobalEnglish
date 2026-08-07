@@ -11,10 +11,10 @@ import Footer from "@/components/Footer";
 export default function Pricing() {
   const pricingOptions = [
     {
-      title: "Private Sessions",
+      title: "Private Sessions — Wanchai",
       rate: "HKD 800",
       period: "per hour",
-      description: "One-on-one personalized coaching tailored to your child's needs and goals.",
+      description: "One-on-one personalized coaching in our shared workspace in Wanchai.",
       features: [
         "Customized curriculum",
         "Focused attention on individual challenges",
@@ -26,17 +26,47 @@ export default function Pricing() {
       highlight: true,
     },
     {
+      title: "Private Sessions — Remote In-Person",
+      rate: "HKD 1,000",
+      period: "per hour",
+      description: "One-on-one personalized coaching at remote locations across Hong Kong Island, Kowloon, and the New Territories. Travel expenses may apply depending on location.",
+      features: [
+        "Customized curriculum",
+        "Flexible scheduling",
+        "Progress tracking and feedback",
+        "Available across Hong Kong Island, Kowloon, and New Territories",
+        "Travel expenses may apply",
+      ],
+      color: "#0F5A8F",
+      highlight: false,
+    },
+    {
+      title: "Private Sessions — Online",
+      rate: "HKD 800",
+      period: "per hour",
+      description: "One-on-one personalized coaching conducted remotely via video call.",
+      features: [
+        "Customized curriculum",
+        "Flexible scheduling",
+        "Progress tracking and feedback",
+        "Learn from anywhere",
+        "Suitable for all age groups and levels",
+      ],
+      color: "#0F5A8F",
+      highlight: false,
+    },
+    {
       title: "Group Sessions",
       rate: "HKD 600",
       period: "per hour per student",
-      description: "Small group coaching (3-5 students) with interactive learning and peer support. Generally held online, with on-site options available for pre-prepared groupings.",
+      description: "Small group coaching (3+ students) with interactive learning and peer support. Available in-person at Wanchai, remote in-person locations, or online.",
       features: [
         "Collaborative learning environment",
         "Debate and discussion practice",
         "Peer feedback and support",
         "Cost-effective option",
         "Dynamic group interactions",
-        "Primarily online delivery",
+        "Flexible delivery options",
       ],
       color: "#1B7AB8",
       highlight: false,
@@ -65,7 +95,7 @@ export default function Pricing() {
       {/* Pricing Cards */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {pricingOptions.map((option, idx) => (
               <div
                 key={idx}
@@ -177,8 +207,8 @@ export default function Pricing() {
                 a: "Yes! We offer discounts for block bookings (e.g., 10+ hours). Please contact us to discuss your specific needs.",
               },
               {
-                q: "Are online sessions available?",
-                a: "Yes, we offer both in-person and online sessions. Private sessions can be conducted either way at the same rate. Group sessions are generally held online for convenience and flexibility, but on-site group classes are available for pre-prepared groupings—please enquire for details.",
+                q: "What are the different session options?",
+                a: "We offer private sessions at our Wanchai shared workspace (HKD 800/hour), remote in-person sessions across Hong Kong Island, Kowloon, and the New Territories (HKD 1,000/hour, travel expenses may apply), and online sessions (HKD 800/hour). Group sessions are available at all locations for HKD 600/hour per student (3+ students).",
               },
               {
                 q: "What is the minimum session duration?",
@@ -190,15 +220,15 @@ export default function Pricing() {
               },
               {
                 q: "How are group sessions formed?",
-                a: "Group sessions are formed based on age, level, and learning goals. We ensure groups are balanced and conducive to learning. Group classes are generally held online; if you would like an on-site group class, please enquire about availability for pre-prepared groupings.",
+                a: "Group sessions are formed based on age, level, and learning goals (minimum 3 students). We ensure groups are balanced and conducive to learning. Group sessions can be held at our Wanchai workspace, at remote in-person locations, or online—please enquire about availability for your preferred location.",
               },
               {
                 q: "What is your cancellation policy?",
                 a: "We require 24 hours notice for cancellations. Sessions cancelled with less notice may be charged.",
               },
               {
-                q: "Are group classes held on-site or online?",
-                a: "Group classes are generally held online for maximum flexibility and convenience. However, on-site group sessions can be arranged for pre-prepared groupings. If you're interested in an on-site group class, please contact us to discuss your requirements.",
+                q: "Where can I attend in-person sessions?",
+                a: "We offer in-person sessions at our shared workspace in Wanchai (HKD 800/hour) or at remote locations across Hong Kong Island, Kowloon, and the New Territories (HKD 1,000/hour, travel expenses may apply). We also offer online sessions for maximum flexibility.",
               },
             ].map((item, idx) => (
               <div key={idx} className="bg-white p-6 rounded-lg shadow-sm">

@@ -80,3 +80,23 @@ Phase 1: Prepare the uploaded reference images and visual brief — in progress.
 Phase 2: Generate the classroom scene using the reference photos.
 Phase 3: Review the generated image for identity, privacy, and website suitability.
 Phase 4: Deliver the generated image for user review.
+
+
+# Side/Rear-View Mr. Michael Homepage Hero
+
+- [ ] Generate a wide classroom hero image showing Mr. Michael from a side or rear three-quarter view.
+- [ ] Preserve the uploaded reference likeness, professional presence, and student privacy.
+- [ ] Replace the current homepage main hero image.
+- [ ] Verify the crop, text contrast, and responsive presentation.
+- [ ] Save the update and deliver it to the user.
+
+## Composition requirements
+
+Mr. Michael should be clearly recognizable from a side or rear three-quarter angle while standing at the front of a modern Hong Kong or international-school classroom. Students should be seen from behind, in soft focus, or otherwise non-identifiable. The image should be wide landscape, with darker uncluttered space on the left for the existing homepage headline and CTA buttons. Avoid institutional logos, readable screen text, watermarks, and unrelated branding.
+
+## Status
+
+Phase 1: Define composition and update task record — in progress.
+Phase 2: Generate the side/rear classroom hero image.
+Phase 3: Install and verify the homepage hero.
+Phase 4: Save and deliver the homepage update.

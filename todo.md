@@ -55,6 +55,28 @@ Phase 4: Deliver the preview and update summary — in progress.
 
 - [x] Candidate image generated.
 - [x] Candidate image visually reviewed.
-- [x] Candidate image installed in Home.tsx.
-- [x] Responsive homepage verified at the project preview.
-- [ ] Final response sent with candidate image and/or checkpoint.
+- [x] Reference-based classroom candidate generated and verified.
+- [x] Final response sent with candidate image preview.
+
+
+# Reference-Based Mr. Michael Classroom Image
+
+- [ ] Prepare a visual brief using the uploaded reference photos.
+- [ ] Generate Mr. Michael standing at the front of a class.
+- [ ] Review identity consistency, student privacy, and classroom composition.
+- [ ] Deliver the generated image for user review before any website replacement.
+
+## Reference-image constraints
+
+Use the uploaded photos to guide Mr. Michael's facial features, bald head, facial hair, build, and professional presence. Prefer a polished but natural classroom or public-speaking workshop. Keep students' faces turned away, out of focus, or otherwise non-identifiable. Exclude visible City University branding, slide text, watermarks, and unrelated institutional logos. Do not change the website until the user approves the generated candidate.
+
+## Composition preference
+
+Create a landscape, website-friendly scene with Mr. Michael clearly visible at the front of a classroom, speaking or gesturing naturally. Preserve enough clean space for possible website text overlay if the image later becomes a hero asset. Use a warm, credible Hong Kong or international-school environment consistent with the MM Global English Classy Blue brand.
+
+## Status
+
+Phase 1: Prepare the uploaded reference images and visual brief — in progress.
+Phase 2: Generate the classroom scene using the reference photos.
+Phase 3: Review the generated image for identity, privacy, and website suitability.
+Phase 4: Deliver the generated image for user review.

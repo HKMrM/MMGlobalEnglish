@@ -132,3 +132,11 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [x] Verify the GitHub Actions workflow and GitHub Pages deployment.
 - [x] Confirm mmglobalenglish.com serves the current photo assets through stable CDN URLs.
 - [x] Report the exact result and next action to the user.
+
+
+# Pricing FAQ and GitHub Pages Route Fix
+
+- [ ] Confirm the second Pricing FAQ no longer mentions travel expenses.
+- [ ] Add a GitHub Pages SPA fallback so direct routes such as /pricing do not return 404.
+- [ ] Push the workflow and copy changes to GitHub.
+- [ ] Verify the Pricing page and updated FAQ on mmglobalenglish.com.

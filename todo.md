@@ -117,3 +117,13 @@ Change only Mr. Michael's facial expression: a natural, warmer smile and more we
 ## Photo update status
 
 The approved happier UN General Assembly image is now referenced by AboutMichael.tsx at `/manus-storage/mr-michael-un-happier-expression_aa15ae11.png`. The refreshed Mr. Michael page displays the image in the profile section with the existing layout intact.
+
+
+# GitHub and Custom-Domain Synchronization
+
+- [ ] Inspect local repository status, remotes, CNAME, and deployment workflow.
+- [ ] Commit any latest website and photo changes that are not already committed.
+- [ ] Push the current build to the connected GitHub repository.
+- [ ] Verify the GitHub Actions workflow and GitHub Pages deployment.
+- [ ] Check whether mmglobalenglish.com is serving the current photo assets and identify any remaining DNS or caching issue.
+- [ ] Report the exact result and next action to the user.

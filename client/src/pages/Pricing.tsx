@@ -89,6 +89,9 @@ export default function Pricing() {
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             Chaperoning services available — pricing can be discussed based on event, location, and time commitment.
           </p>
+          <p className="text-base font-semibold text-gray-700 max-w-2xl mx-auto mt-3">
+            Suggested session length: 1.5 hours for students.
+          </p>
         </div>
       </section>
 
@@ -211,8 +214,8 @@ export default function Pricing() {
                 a: "We offer private sessions at our Wanchai shared workspace (HKD 800/hour), remote in-person sessions across Hong Kong Island, Kowloon, and the New Territories (HKD 1,000/hour, travel expenses may apply), and online sessions (HKD 800/hour). Group sessions are available at all locations for HKD 600/hour per student (3+ students).",
               },
               {
-                q: "What is the minimum session duration?",
-                a: "We recommend 1-hour sessions for optimal learning. However, we can discuss flexible arrangements based on your needs.",
+                q: "What session length do you recommend?",
+                a: "We suggest 1.5-hour sessions for students to allow enough time for focused instruction, practice, and feedback. Flexible arrangements can be discussed based on your needs.",
               },
               {
                 q: "Do you offer trial sessions?",

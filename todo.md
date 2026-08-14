@@ -112,3 +112,8 @@ Phase 4: Save and deliver the homepage update.
 ## Edit constraints
 
 Change only Mr. Michael's facial expression: a natural, warmer smile and more welcoming eyes. Do not alter the UN General Assembly setting, seating, architecture, camera perspective, clothing, body position, or image realism. Avoid an exaggerated grin, facial distortion, identity drift, or fabricated background details. Do not replace the website photo until the user approves the candidate.
+
+
+## Photo update status
+
+The approved happier UN General Assembly image is now referenced by AboutMichael.tsx at `/manus-storage/mr-michael-un-happier-expression_aa15ae11.png`. The refreshed Mr. Michael page displays the image in the profile section with the existing layout intact.

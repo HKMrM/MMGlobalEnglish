@@ -25,7 +25,7 @@ function useInView(threshold = 0.15) {
   return { ref, inView };
 }
 
-const MICHAEL_UN_PHOTO = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663678391153/sPVPANBRPOQyjhjj.jpeg";
+const MICHAEL_UN_PHOTO = "/manus-storage/mr-michael-un-happier-expression_aa15ae11.png";
 
 const achievements = [
   {

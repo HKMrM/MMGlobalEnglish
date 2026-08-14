@@ -121,9 +121,14 @@ The approved happier UN General Assembly image is now referenced by AboutMichael
 
 # GitHub and Custom-Domain Synchronization
 
-- [ ] Inspect local repository status, remotes, CNAME, and deployment workflow.
-- [ ] Commit any latest website and photo changes that are not already committed.
-- [ ] Push the current build to the connected GitHub repository.
-- [ ] Verify the GitHub Actions workflow and GitHub Pages deployment.
-- [ ] Check whether mmglobalenglish.com is serving the current photo assets and identify any remaining DNS or caching issue.
-- [ ] Report the exact result and next action to the user.
+## Completed result
+
+Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `31773032484` completed successfully. The custom domain returned HTTP 200 and its current JavaScript bundle contains the stable CDN references for both the homepage classroom hero and the happier UN General Assembly profile image. Both CDN assets returned HTTP 200.
+
+
+- [x] Inspect local repository status, remotes, CNAME, and deployment workflow.
+- [x] Commit any latest website and photo changes that were not already committed.
+- [x] Push the current build to the connected GitHub repository.
+- [x] Verify the GitHub Actions workflow and GitHub Pages deployment.
+- [x] Confirm mmglobalenglish.com serves the current photo assets through stable CDN URLs.
+- [x] Report the exact result and next action to the user.

@@ -211,7 +211,7 @@ export default function Pricing() {
               },
               {
                 q: "What are the different session options?",
-                a: "We offer private sessions at our Wanchai shared workspace (HKD 800/hour), remote in-person sessions across Hong Kong Island, Kowloon, and the New Territories (HKD 1,000/hour, travel expenses may apply), and online sessions (HKD 800/hour). Group sessions are available at all locations for HKD 600/hour per student (3+ students).",
+                a: "We offer private sessions at our Wanchai shared workspace (HKD 800/hour), remote in-person sessions across Hong Kong Island, Kowloon, and the New Territories (HKD 1,000/hour), and online sessions (HKD 800/hour). Group sessions are available at all locations for HKD 600/hour per student (3+ students).",
               },
               {
                 q: "What session length do you recommend?",

@@ -100,3 +100,15 @@ Phase 1: Define composition and update task record — in progress.
 Phase 2: Generate the side/rear classroom hero image.
 Phase 3: Install and verify the homepage hero.
 Phase 4: Save and deliver the homepage update.
+
+
+# UN General Assembly Photo Expression Edit
+
+- [ ] Create a warmer, happier expression while preserving the original photograph.
+- [ ] Preserve Mr. Michael's identity, venue, clothing, camera angle, lighting, and background.
+- [ ] Review the edited candidate before updating AboutMichael.tsx.
+- [ ] Deliver the candidate for user approval.
+
+## Edit constraints
+
+Change only Mr. Michael's facial expression: a natural, warmer smile and more welcoming eyes. Do not alter the UN General Assembly setting, seating, architecture, camera perspective, clothing, body position, or image realism. Avoid an exaggerated grin, facial distortion, identity drift, or fabricated background details. Do not replace the website photo until the user approves the candidate.

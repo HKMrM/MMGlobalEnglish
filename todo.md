@@ -176,4 +176,12 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [x] Move the “Private Coaching · Hong Kong” label away from Mr. Michael’s head.
 - [x] Preserve one shared mirrored hero image for desktop and mobile.
 - [x] Verify the revised crop, text placement, contrast, and responsive appearance.
-- [ ] Save the corrected website revision.
+- [x] Save the corrected website revision.
+
+
+# Upper-Left Hero Banner Placement
+
+- [x] Move the “Private Coaching · Hong Kong” banner to the upper-left above Mr. Michael’s head.
+- [x] Keep clear spacing between the banner and Mr. Michael across desktop and mobile.
+- [x] Verify the shared hero image, headline readability, and responsive crop.
+- [ ] Save the revised website checkpoint.

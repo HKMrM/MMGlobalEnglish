@@ -1,7 +1,7 @@
 /*
  * DESIGN: Classy Blue — responsive homepage
  * Hero: One full-bleed mirrored image shared across desktop and mobile, with a dark overlay and large display heading
- * Mobile priority: keep Mr. Michael visible on the left, use a left-biased crop, preserve a darker text-safe area on the right, and keep the service badge in the upper-right negative space
+ * Mobile priority: keep Mr. Michael visible on the left, use a left-biased crop, preserve a darker text-safe area on the right, and keep the service badge above him in the upper-left safe area
  * Colors: Classy Blue, deep green overlay, warm cream, gold accents
  * Fonts: Cormorant Garamond (display), Nunito Sans (body), Caveat (accents)
  */
@@ -148,7 +148,7 @@ export default function Home() {
           aria-hidden="true"
         />
         <div
-          className="absolute top-6 right-4 sm:right-6 md:top-10 lg:right-8 z-20 inline-block max-w-[calc(100%-2rem)] px-3.5 py-1.5 rounded-full font-accent text-sm sm:text-base whitespace-nowrap"
+          className="absolute top-6 left-4 sm:left-6 md:top-10 lg:left-8 z-20 inline-block max-w-[calc(100%-2rem)] px-3.5 py-1.5 rounded-full font-accent text-sm sm:text-base whitespace-nowrap"
           style={{ backgroundColor: "rgba(15,45,30,0.72)", color: "#F3C969", border: "1px solid rgba(243,201,105,0.55)" }}
         >
           Private Coaching · Hong Kong

@@ -169,3 +169,11 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [ ] Remove the separate mobile hero source and responsive image split.
 - [ ] Push the unified hero change to GitHub.
 - [ ] Verify the live custom domain and save the result.
+
+
+# Hero Label Composition Correction
+
+- [x] Move the “Private Coaching · Hong Kong” label away from Mr. Michael’s head.
+- [x] Preserve one shared mirrored hero image for desktop and mobile.
+- [x] Verify the revised crop, text placement, contrast, and responsive appearance.
+- [ ] Save the corrected website revision.

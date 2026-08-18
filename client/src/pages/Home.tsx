@@ -1,7 +1,7 @@
 /*
  * DESIGN: Classy Blue — responsive homepage
  * Hero: One full-bleed mirrored image shared across desktop and mobile, with a dark overlay and large display heading
- * Mobile priority: keep Mr. Michael visible on the left, use a left-biased crop, preserve a darker text-safe area on the right, and avoid cropping the teaching gesture
+ * Mobile priority: keep Mr. Michael visible on the left, use a left-biased crop, preserve a darker text-safe area on the right, and keep the service badge in the upper-right negative space
  * Colors: Classy Blue, deep green overlay, warm cream, gold accents
  * Fonts: Cormorant Garamond (display), Nunito Sans (body), Caveat (accents)
  */
@@ -147,14 +147,14 @@ export default function Home() {
           }}
           aria-hidden="true"
         />
+        <div
+          className="absolute top-6 right-4 sm:right-6 md:top-10 lg:right-8 z-20 inline-block max-w-[calc(100%-2rem)] px-3.5 py-1.5 rounded-full font-accent text-sm sm:text-base whitespace-nowrap"
+          style={{ backgroundColor: "rgba(15,45,30,0.72)", color: "#F3C969", border: "1px solid rgba(243,201,105,0.55)" }}
+        >
+          Private Coaching · Hong Kong
+        </div>
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 md:pt-24 md:pb-20">
           <div className="max-w-[88%] ml-auto md:ml-0 md:max-w-2xl">
-            <div
-              className="inline-block font-accent text-base mb-6 px-4 py-1.5 rounded-full"
-              style={{ backgroundColor: "rgba(201,168,76,0.25)", color: "#5CB8E6", border: "1px solid rgba(201,168,76,0.4)" }}
-            >
-              Private Coaching · Hong Kong
-            </div>
             <h1
               className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up"
               style={{ color: "#F8FBFF" }}

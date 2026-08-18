@@ -1,8 +1,8 @@
 /*
- * DESIGN: Warm Academic — Home page
- * Hero: Full-bleed image with dark overlay, large display heading
- * Sections: Philosophy, Programs overview, Pathway, Testimonials, CTA
- * Colors: Forest green, warm cream, gold accents
+ * DESIGN: Classy Blue — responsive homepage
+ * Hero: Full-bleed desktop image with a portrait mobile art direction, dark overlay, and large display heading
+ * Mobile priority: keep Mr. Michael visible on the left, preserve a dark text-safe area on the right, and avoid cropping the teaching gesture
+ * Colors: Classy Blue, deep green overlay, warm cream, gold accents
  * Fonts: Cormorant Garamond (display), Nunito Sans (body), Caveat (accents)
  */
 import { useEffect, useRef, useState } from "react";
@@ -28,7 +28,8 @@ function useInView(threshold = 0.15) {
   return { ref, inView };
 }
 
-const HERO_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663678391153/pFcCxPXHHIgZiibG.png"; 
+const HERO_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663678391153/pFcCxPXHHIgZiibG.png";
+const MOBILE_HERO_IMG = "/manus-storage/mr-michael-classroom-mobile-portrait_43c6c385.png";
 const DEBATE_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/debate-team-WbzVv6KPDCmF6z8mH5449e.webp";
 const WRITING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/creative-writing-aPazyb2JYqC4ZgpkuLepSQ.webp";
 const MUN_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mun-conference-a6iY6BfzySMDsKzWLYjxUd.webp";
@@ -134,19 +135,33 @@ export default function Home() {
       <Navbar />
 
       {/* ── HERO ── */}
-      <section className="relative min-h-screen flex items-center overflow-hidden mt-28">
+      <section className="relative min-h-[calc(100svh-7rem)] md:min-h-screen flex items-center overflow-hidden mt-28">
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 hidden md:block bg-cover bg-center"
           style={{ backgroundImage: `url(${HERO_IMG})` }}
+          aria-hidden="true"
         />
         <div
-          className="absolute inset-0"
+          className="absolute inset-0 block md:hidden bg-cover bg-center"
+          style={{ backgroundImage: `url(${MOBILE_HERO_IMG})` }}
+          aria-hidden="true"
+        />
+        <div
+          className="absolute inset-0 hidden md:block"
           style={{
             background: "linear-gradient(135deg, rgba(15,45,30,0.82) 0%, rgba(15,45,30,0.55) 60%, rgba(15,45,30,0.3) 100%)",
           }}
+          aria-hidden="true"
         />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20">
-          <div className="max-w-2xl">
+        <div
+          className="absolute inset-0 block md:hidden"
+          style={{
+            background: "linear-gradient(90deg, rgba(15,45,30,0.05) 0%, rgba(15,45,30,0.32) 48%, rgba(15,45,30,0.8) 100%)",
+          }}
+          aria-hidden="true"
+        />
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 md:pt-24 md:pb-20">
+          <div className="max-w-[78%] ml-auto md:ml-0 md:max-w-2xl">
             <div
               className="inline-block font-accent text-base mb-6 px-4 py-1.5 rounded-full"
               style={{ backgroundColor: "rgba(201,168,76,0.25)", color: "#5CB8E6", border: "1px solid rgba(201,168,76,0.4)" }}

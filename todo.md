@@ -140,3 +140,13 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [ ] Add a GitHub Pages SPA fallback so direct routes such as /pricing do not return 404.
 - [ ] Push the workflow and copy changes to GitHub.
 - [ ] Verify the Pricing page and updated FAQ on mmglobalenglish.com.
+
+
+# Mobile Homepage Hero Optimization
+
+- [x] Inspect the current homepage hero image source, text overlay, and mobile breakpoints.
+- [x] Generate a mirrored mobile hero composition with Mr. Michael on the left looking right.
+- [x] Add responsive art direction so desktop and mobile can use the appropriate composition.
+- [x] Improve mobile hero height, background positioning, overlay contrast, and text spacing.
+- [x] Verify the homepage build and confirm the mobile asset serves correctly; desktop preview remains intact.
+- [x] Save the verified website update and report the result.

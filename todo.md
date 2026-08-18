@@ -132,3 +132,40 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [x] Verify the GitHub Actions workflow and GitHub Pages deployment.
 - [x] Confirm mmglobalenglish.com serves the current photo assets through stable CDN URLs.
 - [x] Report the exact result and next action to the user.
+
+
+# Pricing FAQ and GitHub Pages Route Fix
+
+- [ ] Confirm the second Pricing FAQ no longer mentions travel expenses.
+- [ ] Add a GitHub Pages SPA fallback so direct routes such as /pricing do not return 404.
+- [ ] Push the workflow and copy changes to GitHub.
+- [ ] Verify the Pricing page and updated FAQ on mmglobalenglish.com.
+
+
+# Mobile Homepage Hero Optimization
+
+- [x] Inspect the current homepage hero image source, text overlay, and mobile breakpoints.
+- [x] Generate a mirrored mobile hero composition with Mr. Michael on the left looking right.
+- [x] Add responsive art direction so desktop and mobile can use the appropriate composition.
+- [x] Improve mobile hero height, background positioning, overlay contrast, and text spacing.
+- [x] Verify the homepage build and confirm the mobile asset serves correctly; desktop preview remains intact.
+- [x] Save the verified website update and report the result.
+
+
+# Live Mobile Hero Deployment Fix
+
+- [x] Inspect the mobile hero source in the current build and confirm the mirrored asset is the intended candidate.
+- [x] Upload the mirrored mobile hero to a stable public CDN URL for GitHub Pages.
+- [x] Replace the Manus-only mobile path with the public URL.
+- [x] Push the responsive mobile hero fix to GitHub.
+- [x] Verify the GitHub Actions run and the current mobile asset reference in mmglobalenglish.com.
+- [x] Report the live result and any cache-refresh instruction.
+
+
+# Unified Mirrored Homepage Hero
+
+- [ ] Inspect and reconcile the interrupted GitHub synchronization state.
+- [ ] Use the single mirrored classroom hero image on desktop and mobile.
+- [ ] Remove the separate mobile hero source and responsive image split.
+- [ ] Push the unified hero change to GitHub.
+- [ ] Verify the live custom domain and save the result.

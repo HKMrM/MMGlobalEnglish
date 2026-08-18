@@ -154,9 +154,18 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 
 # Live Mobile Hero Deployment Fix
 
-- [ ] Inspect the mobile hero source in the current build and confirm the mirrored asset is the intended candidate.
-- [ ] Upload the mirrored mobile hero to a stable public CDN URL for GitHub Pages.
-- [ ] Replace the Manus-only mobile path with the public URL.
-- [ ] Push the responsive mobile hero fix to GitHub.
-- [ ] Verify the GitHub Actions run and the current mobile asset reference in mmglobalenglish.com.
-- [ ] Report the live result and any cache-refresh instruction.
+- [x] Inspect the mobile hero source in the current build and confirm the mirrored asset is the intended candidate.
+- [x] Upload the mirrored mobile hero to a stable public CDN URL for GitHub Pages.
+- [x] Replace the Manus-only mobile path with the public URL.
+- [x] Push the responsive mobile hero fix to GitHub.
+- [x] Verify the GitHub Actions run and the current mobile asset reference in mmglobalenglish.com.
+- [x] Report the live result and any cache-refresh instruction.
+
+
+# Unified Mirrored Homepage Hero
+
+- [ ] Inspect and reconcile the interrupted GitHub synchronization state.
+- [ ] Use the single mirrored classroom hero image on desktop and mobile.
+- [ ] Remove the separate mobile hero source and responsive image split.
+- [ ] Push the unified hero change to GitHub.
+- [ ] Verify the live custom domain and save the result.

@@ -29,7 +29,7 @@ function useInView(threshold = 0.15) {
 }
 
 const HERO_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663678391153/pFcCxPXHHIgZiibG.png";
-const MOBILE_HERO_IMG = "/manus-storage/mr-michael-classroom-mobile-portrait_43c6c385.png";
+const MOBILE_HERO_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663678391153/aZECRzacuROBTNwz.png";
 const DEBATE_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/debate-team-WbzVv6KPDCmF6z8mH5449e.webp";
 const WRITING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/creative-writing-aPazyb2JYqC4ZgpkuLepSQ.webp";
 const MUN_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mun-conference-a6iY6BfzySMDsKzWLYjxUd.webp";

@@ -150,3 +150,13 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [x] Improve mobile hero height, background positioning, overlay contrast, and text spacing.
 - [x] Verify the homepage build and confirm the mobile asset serves correctly; desktop preview remains intact.
 - [x] Save the verified website update and report the result.
+
+
+# Live Mobile Hero Deployment Fix
+
+- [ ] Inspect the mobile hero source in the current build and confirm the mirrored asset is the intended candidate.
+- [ ] Upload the mirrored mobile hero to a stable public CDN URL for GitHub Pages.
+- [ ] Replace the Manus-only mobile path with the public URL.
+- [ ] Push the responsive mobile hero fix to GitHub.
+- [ ] Verify the GitHub Actions run and the current mobile asset reference in mmglobalenglish.com.
+- [ ] Report the live result and any cache-refresh instruction.

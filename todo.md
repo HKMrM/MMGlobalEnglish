@@ -201,4 +201,12 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [x] Prepare the approved classroom image as the homepage hero asset.
 - [x] Replace the current shared desktop/mobile hero source.
 - [x] Preserve the upper-left “Private Coaching · Hong Kong” banner and readable text overlay.
-- [ ] Verify the homepage hero and save the revision.
+- [x] Verify the homepage hero and save the revision.
+
+
+# GitHub Publication Handoff
+
+- [ ] Confirm the approved homepage hero revision is present locally.
+- [ ] Save and synchronize the revision with the connected GitHub repository.
+- [ ] Confirm the GitHub Pages publication handoff for mmglobalenglish.com.
+- [ ] Provide the user with the exact next publication action if GitHub requires it.

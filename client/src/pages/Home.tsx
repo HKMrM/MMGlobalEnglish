@@ -1,7 +1,7 @@
 /*
  * DESIGN: Classy Blue — responsive homepage
- * Hero: One full-bleed mirrored image shared across desktop and mobile, with a dark overlay and large display heading
- * Mobile priority: keep Mr. Michael visible on the left, use a left-biased crop, preserve a darker text-safe area on the right, and keep the service badge above him in the upper-left safe area
+ * Hero: One full-bleed classroom image shared across desktop and mobile, with a dark overlay and large display heading
+ * Mobile priority: keep Mr. Michael visible on the left, use a left-biased crop, place the hero copy inside a dark right-side panel, and keep the service badge above him in the upper-left safe area
  * Colors: Classy Blue, deep green overlay, warm cream, gold accents
  * Fonts: Cormorant Garamond (display), Nunito Sans (body), Caveat (accents)
  */
@@ -28,7 +28,7 @@ function useInView(threshold = 0.15) {
   return { ref, inView };
 }
 
-const HERO_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663678391153/llCcVLsFyZyLjFOm.png";
+const HERO_IMG = "/manus-storage/mr-michael-classroom-clean-podium_6089a385.png";
 const DEBATE_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/debate-team-WbzVv6KPDCmF6z8mH5449e.webp";
 const WRITING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/creative-writing-aPazyb2JYqC4ZgpkuLepSQ.webp";
 const MUN_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mun-conference-a6iY6BfzySMDsKzWLYjxUd.webp";
@@ -148,15 +148,20 @@ export default function Home() {
           aria-hidden="true"
         />
         <div
+          className="absolute inset-y-0 right-0 z-[5] w-[58%] md:hidden"
+          style={{ background: "rgba(8,32,44,0.78)" }}
+          aria-hidden="true"
+        />
+        <div
           className="absolute top-6 left-4 sm:left-6 md:top-10 lg:left-8 z-20 inline-block max-w-[calc(100%-2rem)] px-3.5 py-1.5 rounded-full font-accent text-sm sm:text-base whitespace-nowrap"
           style={{ backgroundColor: "rgba(15,45,30,0.72)", color: "#F3C969", border: "1px solid rgba(243,201,105,0.55)" }}
         >
           Private Coaching · Hong Kong
         </div>
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 md:pt-24 md:pb-20">
-          <div className="max-w-[88%] ml-auto md:ml-0 md:max-w-2xl">
+          <div className="max-w-[56%] ml-auto md:max-w-xl">
             <h1
-              className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up"
+              className="font-display text-4xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up"
               style={{ color: "#F8FBFF" }}
             >
               Find Your Voice.
@@ -164,22 +169,22 @@ export default function Home() {
               <em className="italic font-light" style={{ color: "#5CB8E6" }}>Shape Your World.</em>
             </h1>
             <p
-              className="font-body text-lg sm:text-xl leading-relaxed mb-8 animate-fade-up-delay-1"
+              className="font-body text-sm sm:text-xl leading-relaxed mb-8 animate-fade-up-delay-1"
               style={{ color: "rgba(253,246,236,0.85)" }}
             >
               Expert English communication coaching for students from lower primary through upper secondary — building the critical thinking, empathy, and expressive skills that matter most in the modern world.
             </p>
-            <div className="flex flex-wrap gap-4 animate-fade-up-delay-2">
+            <div className="flex flex-col sm:flex-row gap-4 animate-fade-up-delay-2">
               <Link
                 href="/programs"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded font-body font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
+                className="inline-flex w-full sm:w-auto justify-center items-center gap-2 px-4 sm:px-7 py-3.5 rounded font-body font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
                 style={{ backgroundColor: "#2E9FD8", color: "#0A3A5C" }}
               >
                 Explore Programmes <ArrowRight size={16} />
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded font-body font-semibold text-sm transition-all duration-200 hover:bg-white/20"
+                className="inline-flex w-full sm:w-auto justify-center items-center gap-2 px-4 sm:px-7 py-3.5 rounded font-body font-semibold text-xs sm:text-sm whitespace-nowrap transition-all duration-200 hover:bg-white/20"
                 style={{ border: "1.5px solid rgba(253,246,236,0.6)", color: "#F8FBFF" }}
               >
                 Book a Free Consultation

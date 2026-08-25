@@ -185,3 +185,20 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [x] Keep clear spacing between the banner and Mr. Michael across desktop and mobile.
 - [x] Verify the shared hero image, headline readability, and responsive crop.
 - [ ] Save the revised website checkpoint.
+
+
+# Supplied Photo Classroom Hero Revision
+
+- [ ] Use MCF_CityUMUN.png as the identity and pose reference.
+- [ ] Remove the City University logo and all podium wording/graphics.
+- [ ] Generate a wide homepage-ready image of Mr. Michael facing a classroom.
+- [ ] Keep students non-identifiable and preserve text-safe space for the hero copy.
+- [x] Review the generated image before replacing the current homepage hero.
+
+
+# Approved Classroom Hero Installation
+
+- [x] Prepare the approved classroom image as the homepage hero asset.
+- [x] Replace the current shared desktop/mobile hero source.
+- [x] Preserve the upper-left “Private Coaching · Hong Kong” banner and readable text overlay.
+- [ ] Verify the homepage hero and save the revision.

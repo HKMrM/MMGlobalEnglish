@@ -22,3 +22,7 @@ The approved clean-podium classroom image is now the single homepage hero source
 ## 2026-08-28 — Mr. Michael biography update
 
 The Background section on `/about-michael` now contains the user-provided New York, Lehigh University, Hong Kong coaching, competition, performance, community, and interdisciplinary coaching details. The production build passed. The desktop route rendered the full updated biography with the existing UN Headquarters photo and Classy Blue hierarchy; the 375×812 mobile preview showed the hero heading and supporting text wrapping cleanly.
+
+## 2026-08-28 — Home.tsx merge/HMR repair
+
+Resolved the interrupted merge conflict in `client/src/pages/Home.tsx` by keeping the GitHub Pages-compatible `/mr-michael-classroom-clean-podium.webp` source and preserving the responsive hero layout. The production build and TypeScript check pass. Both `/about-michael` and `/` now reload successfully in the preview; the biography, photo, homepage hero, banner, and hero copy render without the prior Vite syntax error.

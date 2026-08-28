@@ -222,7 +222,22 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 
 # Home.tsx Merge and HMR Repair
 
-- [ ] Inspect and resolve the interrupted merge conflict in Home.tsx.
-- [ ] Preserve the approved homepage hero implementation and biography update.
-- [ ] Rebuild the project and verify `/about-michael` and `/`.
-- [ ] Save a clean recovery checkpoint if the project state is valid.
+- [x] Inspect and resolve the interrupted merge conflict in Home.tsx.
+- [x] Preserve the approved homepage hero implementation and biography update.
+- [x] Rebuild the project and verify `/about-michael` and `/`.
+- [x] Save a clean recovery checkpoint if the project state is valid.
+
+
+# GitHub Pages Biography Publication
+
+- [x] Confirm the clean recovery revision and GitHub main state.
+- [x] Push the repaired homepage and updated Mr. Michael biography to GitHub main.
+- [x] Confirm the GitHub Pages workflow succeeds.
+- [ ] Verify mmglobalenglish.com serves the published biography update.
+
+
+# GitHub Pages Direct-Route Fallback
+
+- [ ] Add a workflow-safe SPA fallback for direct React routes without modifying the protected workflow file.
+- [ ] Push the fallback and confirm the GitHub Pages workflow succeeds.
+- [ ] Verify the homepage and `/about-michael` on mmglobalenglish.com.

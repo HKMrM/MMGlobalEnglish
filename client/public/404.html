@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MM Global English</title>
+  </head>
+  <body>
+    <script>
+      (function () {
+        var routeKey = "mm-global-english:github-pages-path";
+        var requestedPath = window.location.pathname + window.location.search + window.location.hash;
+
+        try {
+          window.sessionStorage.setItem(routeKey, requestedPath);
+        } catch (error) {
+          // Continue to the homepage if session storage is unavailable.
+        }
+
+        window.location.replace("/");
+      })();
+    </script>
+  </body>
+</html>

@@ -210,3 +210,19 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [ ] Save and synchronize the revision with the connected GitHub repository.
 - [ ] Confirm the GitHub Pages publication handoff for mmglobalenglish.com.
 - [ ] Provide the user with the exact next publication action if GitHub requires it.
+
+
+# Mr. Michael Biography Update
+
+- [x] Replace the existing biography with the user-provided background and experience.
+- [x] Preserve the professional Classy Blue layout and page hierarchy.
+- [x] Verify the updated biography on desktop and mobile.
+- [ ] Save the revised page checkpoint.
+
+
+# Home.tsx Merge and HMR Repair
+
+- [ ] Inspect and resolve the interrupted merge conflict in Home.tsx.
+- [ ] Preserve the approved homepage hero implementation and biography update.
+- [ ] Rebuild the project and verify `/about-michael` and `/`.
+- [ ] Save a clean recovery checkpoint if the project state is valid.

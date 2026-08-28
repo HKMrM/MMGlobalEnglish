@@ -128,13 +128,16 @@ export default function AboutMichael() {
                 Born and raised in New York, I graduated from Lehigh University with a focus on Political Science, Religion, and Musical Performance. These disciplines shaped how I approach communication coaching — understanding that great speakers must be informed, empathetic, and expressive.
               </p>
               <p>
-                For the past 15 years, I've been based in Hong Kong, working with students ages 2–18 across international and local schools. I've brought that same passion for debate, public speaking, and critical thinking to a new generation of Hong Kong students — many of whom have gone on to compete at the highest levels.
+                For the past 15 years, I have been based in Hong Kong, coaching students ages 2–18 across international and local schools. I specialize in debate, public speaking, English language education, and critical thinking, helping students build confidence and communication skills that last a lifetime.
               </p>
               <p>
-                In Hong Kong, I have chaperoned and coached award-winning debate teams competing in the US National Debate Championships and for NHSMUN, the largest secondary school Model United Nations conference in the world. I also coached World Scholar's Cup teams to the World Scholar's Cup Championship at Yale University.
+                I have coached and chaperoned award-winning students at NHSMUN in New York and the World Scholar’s Cup locally, regionally, and at Yale University’s Tournament of Champions. I have also trained students who now compete at the US National Debate Championships, coached participants in public speaking competitions such as the AIM Cup and the HKFYG English Public Speaking Contest, and helped prepare local students for the HKDSE oral assessments.
               </p>
               <p>
-                Beyond the classroom, I'm a singer with the Hong Kong Bach Choir and Commissioner of the Hong Kong Slow Pitch Softball Association — because I believe that communication and community engagement happen everywhere, not just in formal settings.
+                Beyond academics, I have performed with the Hong Kong Bach Choir, the Regina Opera Company of Brooklyn, NY, church choirs, and local theater productions. I also serve as Commissioner of the Hong Kong Slow Pitch Softball Association, reflecting my belief that communication, teamwork, and community engagement thrive in many different arenas — from the stage to the playing field.
+              </p>
+              <p>
+                Drawing on my varied interests in sports, the arts, history, politics, and performance, I bring a creative and interdisciplinary approach to coaching. This makes learning engaging, impactful, and tailored to each student’s growth. I offer private academic coaching and tutoring for students looking to strengthen English, grow as confident communicators, and excel in competitions.
               </p>
             </div>
           </div>

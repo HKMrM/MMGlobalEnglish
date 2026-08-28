@@ -18,3 +18,7 @@ After the storage image finished loading, the homepage preview showed Mr. Michae
 ## 2026-08-25 — Approved classroom hero installed
 
 The approved clean-podium classroom image is now the single homepage hero source. Desktop places the copy in the open right-side board area, while mobile adds a dark right-side text panel, keeps Mr. Michael visible on the left, preserves the upper-left service banner, and stacks the calls to action cleanly. The final production build passes, and the 375×812 mobile preview shows the image, copy, banner, and buttons rendering without the previous overlap.
+
+## 2026-08-28 — Mr. Michael biography update
+
+The Background section on `/about-michael` now contains the user-provided New York, Lehigh University, Hong Kong coaching, competition, performance, community, and interdisciplinary coaching details. The production build passed. The desktop route rendered the full updated biography with the existing UN Headquarters photo and Classy Blue hierarchy; the 375×812 mobile preview showed the hero heading and supporting text wrapping cleanly.

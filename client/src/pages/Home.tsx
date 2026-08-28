@@ -28,7 +28,7 @@ function useInView(threshold = 0.15) {
   return { ref, inView };
 }
 
-const HERO_IMG = "/manus-storage/mr-michael-classroom-clean-podium_6089a385.png";
+const HERO_IMG = "/mr-michael-classroom-clean-podium.webp";
 const DEBATE_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/debate-team-WbzVv6KPDCmF6z8mH5449e.webp";
 const WRITING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/creative-writing-aPazyb2JYqC4ZgpkuLepSQ.webp";
 const MUN_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mun-conference-a6iY6BfzySMDsKzWLYjxUd.webp";

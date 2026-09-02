@@ -42,13 +42,13 @@ export default function Navbar() {
     >
       <div className="w-full">
         <div className="flex items-center justify-between h-28 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#F8FBFF", borderBottom: "1px solid rgba(15,90,143,0.1)" }}>
-          {/* Wordmark - Square Badge Logo */}
+          {/* Full MM Global English mark — transparent background, responsive wordmark */}
           <Link href="/" className="flex items-center leading-tight group hover:opacity-80 transition-opacity flex-shrink-0">
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663678391153/meqJRzWDVfsRVyBGvtAawS/mm-logo-esPFCf9goXHMvR3Bsh3iGZ.webp"
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663678391153/JIDQUXqTlZMpcpYi.png"
               alt="MM Global English"
-              className="h-24 w-auto drop-shadow-lg object-contain"
-              style={{ maxHeight: '96px' }}
+              className="h-[92px] sm:h-24 w-auto drop-shadow-lg object-contain"
+              style={{ maxHeight: '96px', maxWidth: '180px' }}
             />
           </Link>
 

@@ -26,3 +26,7 @@ The Background section on `/about-michael` now contains the user-provided New Yo
 ## 2026-08-28 — Home.tsx merge/HMR repair
 
 Resolved the interrupted merge conflict in `client/src/pages/Home.tsx` by keeping the GitHub Pages-compatible `/mr-michael-classroom-clean-podium.webp` source and preserving the responsive hero layout. The production build and TypeScript check pass. Both `/about-michael` and `/` now reload successfully in the preview; the biography, photo, homepage hero, banner, and hero copy render without the prior Vite syntax error.
+
+## 2026-09-02 — Supplied MM Global English logo update
+
+The supplied logo was cleaned from its checkerboard presentation into a cropped transparent PNG and uploaded to a stable public CDN URL. The header now uses the full MM Global English mark, including the “Global English” wording, and the same asset is referenced as the favicon. Desktop and 375×812 mobile previews both show the complete mark clearly within the header without checkerboard tiles; mobile sizing remains compact enough to preserve the menu control and header balance.

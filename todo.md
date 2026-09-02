@@ -241,3 +241,12 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [ ] Add a workflow-safe SPA fallback for direct React routes without modifying the protected workflow file.
 - [ ] Push the fallback and confirm the GitHub Pages workflow succeeds.
 - [ ] Verify the homepage and `/about-michael` on mmglobalenglish.com.
+
+
+# Supplied MM Global English Logo Update
+
+- [x] Remove the checkerboard background and prepare a transparent or clean white version.
+- [x] Prepare the supplied logo asset for the web header and favicon use.
+- [x] Replace the current top-left logo with the full mark including “Global English.”
+- [x] Tune responsive sizing so the full logo remains legible on desktop and mobile.
+- [ ] Verify the header and save the revision.

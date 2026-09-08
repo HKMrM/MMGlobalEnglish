@@ -249,7 +249,8 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [x] Add an intermediate debate and public speaking tier between beginner and competitive coaching.
 - [x] Preserve HKD 600/hour competitive group sessions.
 - [x] State that remote in-person sessions may require a travel fee discussed in advance.
-- [ ] Verify the revised Pricing page and save the checkpoint.
+- [x] Clarify Hong Kong Island urban-centre examples: Wan Chai, Admiralty, Central, and Causeway Bay.
+- [x] Verify the revised Pricing page and save the checkpoint.
 
 
 # Supplied MM Global English Logo Update

@@ -243,10 +243,27 @@ Commit `1cdaf30` was pushed to `HKMrM/MMGlobalEnglish`. GitHub Actions run `3177
 - [ ] Verify the homepage and `/about-michael` on mmglobalenglish.com.
 
 
+# Pricing Structure Revision
+
+- [x] Confirm the beginner, intermediate, and competitive private-session rates.
+- [x] Add an intermediate debate and public speaking tier between beginner and competitive coaching.
+- [x] Preserve HKD 600/hour competitive group sessions.
+- [x] State that remote in-person sessions may require a travel fee discussed in advance.
+- [ ] Verify the revised Pricing page and save the checkpoint.
+
+
 # Supplied MM Global English Logo Update
 
 - [x] Remove the checkerboard background and prepare a transparent or clean white version.
 - [x] Prepare the supplied logo asset for the web header and favicon use.
 - [x] Replace the current top-left logo with the full mark including “Global English.”
 - [x] Tune responsive sizing so the full logo remains legible on desktop and mobile.
-- [ ] Verify the header and save the revision.
+- [x] Verify the header and save the revision.
+
+
+# Approved Logo GitHub Publication
+
+- [ ] Confirm the approved logo checkpoint and GitHub main state.
+- [ ] Push the logo update to GitHub main without altering the existing workflow unnecessarily.
+- [ ] Confirm the GitHub Pages workflow succeeds.
+- [ ] Verify the live logo and navigation on mmglobalenglish.com.

@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 export default function Pricing() {
   const pricingOptions = [
     {
-      title: "Creative Writing",
+      title: "Creative & Critical Writing",
       rate: "HKD 600",
       period: "per hour",
       description: "Creative and critical writing coaching tailored to each student, available online or in person. Off-site travel terms are outlined above.",
@@ -213,7 +213,7 @@ export default function Pricing() {
               },
               {
                 q: "What are the different session options?",
-                a: "We offer creative writing coaching at HKD 600/hour, debate and public speaking coaching at HKD 600/hour, competitive private coaching in person at HKD 800/hour, and competitive group sessions at HKD 600/hour per student (3+ students). Online sessions are available. For remote in-person sessions outside the Hong Kong Island urban centre, taxi or Uber transport to and from the lesson location will be reimbursed. A HKD 100 travel fee applies only when the destination requires more than 30 minutes of travel beyond the urban centre.",
+                a: "We offer creative and critical writing coaching at HKD 600/hour, debate and public speaking coaching at HKD 600/hour, competitive private coaching in person at HKD 800/hour, and competitive group sessions at HKD 600/hour per student (3+ students). Online sessions are available. For remote in-person sessions outside the Hong Kong Island urban centre, taxi or Uber transport to and from the lesson location will be reimbursed. A HKD 100 travel fee applies only when the destination requires more than 30 minutes of travel beyond the urban centre.",
               },
               {
                 q: "What session length do you recommend?",
@@ -233,7 +233,7 @@ export default function Pricing() {
               },
               {
                 q: "Where can I attend in-person sessions?",
-                a: "Creative writing sessions and debate or public speaking sessions are each HKD 600/hour privately, whether online or in person. Competitive debate, public speaking, MUN, and related preparation is HKD 800/hour privately in person, while competitive group sessions are HKD 600/hour per student. Wan Chai, Admiralty, Central, and Causeway Bay are generally within the Hong Kong Island urban centre. For locations outside that area, taxi or Uber transport to and from the lesson location will be reimbursed. A HKD 100 travel fee applies only when the destination requires more than 30 minutes of travel beyond the urban centre.",
+                a: "Creative and critical writing sessions and debate or public speaking sessions are each HKD 600/hour privately, whether online or in person. Competitive debate, public speaking, MUN, and related preparation is HKD 800/hour privately in person, while competitive group sessions are HKD 600/hour per student. Wan Chai, Admiralty, Central, and Causeway Bay are generally within the Hong Kong Island urban centre. For locations outside that area, taxi or Uber transport to and from the lesson location will be reimbursed. A HKD 100 travel fee applies only when the destination requires more than 30 minutes of travel beyond the urban centre.",
               },
             ].map((item, idx) => (
               <div key={idx} className="bg-white p-6 rounded-lg shadow-sm">

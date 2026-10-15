@@ -6,15 +6,16 @@
   "experiments": null,
   "git_remote": {
     "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663678391153/meqJRzWDVfsRVyBGvtAawS",
-    "access_key_id": "ASIAZV3A2ECZFMPQX5NJ",
-    "secret_access_key": "KOoVVctcITuZsFOenR+XFWEGOibR2XbNVbSyruCr",
-    "session_token": "IQoJb3JpZ2luX2VjEPX//////////wEaCXVzLWVhc3QtMSJHMEUCIQDSLf84m6AuGSy5WVFq/P3egNlf4dWAVUWfzg3sNhwfOAIgIFV9mgKcviF2BlvLDB2i1C5h4dr5AtgWBjG6IVIReJ0q/wMIvf//////////ARAEGgw2NjUzODYwOTg4NjYiDLMHCZMe257JKqIueCrTA+Pv0f4/IVIIbA4OpQ2Jdj69Cx+DXzNO/taXLWskEfu2ABkitpAU3nr+A2IGpDGXiue6gr3CGYDKGfnkcxfZWaLyjmDNhuGT1CaG78XEKIF4my42piVC74rrloC4xwcp69hNjiXuvAU3z+YjjQKaGEFVH43S2kSG+Ik0TJNrXV8mX1BM4D5bPexmumKbSLW1njc8DmveQiSsRkthTFmAtUUB+eyEd8UpkPssZjaeiXxwYHkhh1oqzXyDgCBwEyV+a+bbF3jQri/qKwSDErXc2ZnUuJZpS3fDHA3rcJc6lo2X0V7+l73xUTlmJ1BqdTGDRS8QnzYA2rkTLGsFKlr8vPgNBNi126wc2eHfgaTXNvWCO5HUaX7XMaRwxN5x86RJzMh3IZqI+t+PSEg6OZd/pk+84T8LlY5Vf/UiAYEFfFLMCyJQSd8qKQgLCpZcvaj/OUEVVIMKKz4G2DtZmLqrN3g4M0pXACT1P2C044yu6W3WbjreVptpxuXbWPCXs9HDeQgmLpeCRHiNf8hvONapA5aSkR2cRVmCvHMQY0fybgndL3CLAfC47Dt1RxqV0fj9f+SUdjH0+mb+NzdV8eplFcSaaCP2ra/rsqyT3MixrFSD2D5TMNrH3tQGOp0BJnKNnOJVdgJa4YDnjujSwvVvBTqE+dJk5Xbyn7c7ahrAxrU1hgYlvfsXXE01A7cQLii2nT807brmrXcE9irHz8epGWTQPVz56hSwcKd6It6G09rne0gp+5eNXuABHuH1NbptwuGK8MCGLXDUCk9Fd0E6KpY5fU/QTAeaSsJ6z9KTva08oJDIm+2Sf1y/Mb9eaONv1XubrWfejl/4AQ==",
-    "expiration": "2026-09-02T16:19:38.000Z",
+    "access_key_id": "ASIAZV3A2ECZJZJMPV5O",
+    "secret_access_key": "rYSc7w0SiC4uYhccN6VxdTcR69jUUqguXaGnq3Mr",
+    "session_token": "IQoJb3JpZ2luX2VjEP///////////wEaCXVzLWVhc3QtMSJGMEQCIF3mMUc8ijSi4v2HoC4MByLZtKIwc8R8PRZ+E1JYtB8kAiBwFSkX6nnNvXQu78kflKRU9eUWN8JdwLkxoL/boU52hir/AwjH//////////8BEAQaDDY2NTM4NjA5ODg2NiIMZCc20sfsyA8w1Z6bKtMDTp+l6LSp5c87co9hfPA8eHXB0ja8qDbAQCCTRUxNIt0jgh06N8eRrO83Ah0mwY0Bj6S21Yg9brBK4+Jq9ZjfrI35PNOjLvvbckbgqZmstbwhO5Wbb3Sa7x0o1CiEHHCRY8SSrGxq8OMsF0shGA2CNY/YnOtDCj6P5y81fMNVmgNNamKA67HhQAmr1mkcOeFHA8J6CP4IOY2yyTJxaGPeenITkZ0SXZOfqZrUjbJ9kvwycetVjmVFTNgxycfr+NvZhRQf+uXMmCxylzIhD4/4FZEPJ1Go+8eeM9PnJMaqj5hP3Lml7ih9+yROJsc/EhzVl0sisk1mDTHq6XY6LF83PcFS3YAMEwSTbgLkQWFxva250TINfzsYynr8skggdIcreVUqHrlqQuoHX8WOYpqose0YFF55g3nKBIG+YixB7In8HEBUcrwrTyJFJUvS8M+BmSzVi0gDy4E7QHt2rEFfUZFz1ZNWU67LZm+oPEglsz6kE3F8Zb+JsZ+Ja6+hIvfxJIZweBPJ/GHjoTpLPayfolfnrhwzWyTciu+kzxRe/34Xf6vfgWJkMg9y69qidrg4LOZWVs+r/0Lx2ZVMqs1DQT7HH/HW1VpQstRrH0+Y7QGunswwuuPB1gY6ngFNlugDKuXgz8joEnTsBs5sFOA+lalBK0umscG0mYewywmjKVX9fGadJgsKbm5n+HPwXas3jlibQ0ld5MBAg42fLuc7gdsyGx89/pEQowiJLHX2/NGe2ansEIM8Xe/Ey5+tec7+ITbYxTasRLMRY2337YQ//SHaGQN2Tq1rD/WM9ql3v4HzXjEtHsM9lUVGFlUQBeaDbkbwvdH48S6VnQ==",
+    "expiration": "2026-10-15T18:24:58.000Z",
     "backend": "GIT_BACKEND_S3"
   },
   "name": "hk-coaching",
   "path": "/home/ubuntu/hk-coaching",
   "port": 3000,
+  "runtime_endpoints": null,
   "secrets": {
     "BUILT_IN_FORGE_API_KEY": "QcePPQhNLhT2vhC2Pp7icS",
     "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
@@ -25,8 +26,8 @@
     "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
     "VITE_ANALYTICS_WEBSITE_ID": "1a118e5e-c4a2-4390-b378-f2b43494ebe7",
     "VITE_APP_ID": "meqJRzWDVfsRVyBGvtAawS",
-    "VITE_APP_LOGO": "",
-    "VITE_APP_TITLE": "Us English",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663678391153/lzuiBlPTljybkujH.png",
+    "VITE_APP_TITLE": "The Voice Academy HK",
     "VITE_FRONTEND_FORGE_API_KEY": "2yaNzJouKLThN6W6QEaV6Y",
     "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
     "VITE_OAUTH_PORTAL_URL": "https://manus.im"
